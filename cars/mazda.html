@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboElezz-Car-Tuning-MAZDA</title>
+    <link rel="icon" href="abo.png">
+    <link rel="stylesheet" href="cars.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+
+    <header id="first" style="display: none;">
+        <a href="#"> <img id="logo" src="abo1.png" alt="logo"> </a>
+        <br>
+        <a href="/AboElezz-Car-Tuning/index.html"> <button class="btn btn-dark">HOME</button> </a>
+        <a href="#about"> <button class="btn btn-dark">ABOUT US</button> </a>
+        <a href="#contact"> <button class="btn btn-dark">CONTACT</button> </a>
+        <br>
+        <div id="navMenu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+
+        <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav justify-content-center navbar-nav">
+                <div id="searchNav">
+
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Interior
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Seats</button></li>
+                                <li><button class="dropdown-item" type="button">Harnesses</button></li>
+                                <li><button class="dropdown-item" type="button">Pedals</button></li>
+                            </ul>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Exterior
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Lights</button></li>
+                                <li><button class="dropdown-item" type="button">Window</button></li>
+                                <li><button class="dropdown-item" type="button">Hoods</button></li>
+                            </ul>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Wheels
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Air Valves</button></li>
+                                <li><button class="dropdown-item" type="button">Wheel Blots</button></li>
+                                <li><button class="dropdown-item" type="button">Wheel Outlet</button></li>
+                            </ul>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Engine
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Air Induction</button></li>
+                                <li><button class="dropdown-item" type="button">Fule System</button></li>
+                                <li><button class="dropdown-item" type="button">Engine Mounts</button></li>
+                            </ul>
+                        </div>
+                        </a>
+
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Accessories
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Car Covers</button></li>
+                                <li><button class="dropdown-item" type="button">Helmets</button></li>
+                                <li><button class="dropdown-item" type="button">Keys Accessories</button></li>
+                            </ul>
+                        </div>
+                        </a>
+
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Brakes
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Break Calipers</button></li>
+                                <li><button class="dropdown-item" type="button">Big Break Kits</button></li>
+                                <li><button class="dropdown-item" type="button">Break Fluids</button></li>
+                            </ul>
+                        </div>
+                        </a>
+                    <li class="nav-item">
+                        <div class="dropdown dropend">
+                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Cleaning Products
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <li><button class="dropdown-item" type="button">Interior Cleaning</button></li>
+                                <li><button class="dropdown-item" type="button">Air Freshener</button></li>
+                                <li><button class="dropdown-item" type="button">Engine Bay</button></li>
+                            </ul>
+                        </div>
+                        </a>
+                        </button>
+            </ul>
+        </div>
+        </div>
+        </div>
+        </nav>
+        </div>
+        <div id="search-box" class="input-group search" onclick="vis()">
+            <div class="form-outline">
+                <input id="myInput" type="text" onkeyup="myFunction()" class="form-control"
+                    placeholder="Type to Search" />
+                <label class="form-label" for="myInput"></label>
+            </div>
+            <button id="search-button" onclick="myFunction()" type="button" class="btn btn-primary">
+                <i class="fas fa-search"></i>
+            </button>
+            </ul>
+            <br>
+
+    </header>
+
+
+    <div id="second">
+
+        <header>
+
+            <a href="#"> <img id="logo" src="abo1.png" alt="logo"></a>
+
+            <br>
+
+            <a href="/AboElezz-Car-Tuning/index.html"> <button class="btn btn-dark">HOME</button> </a>
+            <a href="#about"> <button class="btn btn-dark">ABOUT US</button> </a>
+            <a href="#contact"> <button class="btn btn-dark">CONTACT</button> </a>
+
+            <br>
+
+            <div id="search-box" class="input-group search">
+                <div class="form-outline">
+                    <input id="myInputs" type="text" onkeyup="myFunctions()" class="form-control"
+                        placeholder="Type to Search" />
+                    <label class="form-label" for="myInput"></label>
+                </div>
+                <button id="search-button" onclick="myFunctions()" type="button" class="btn btn-primary">
+                    <i class="fas fa-search"></i>
+                </button>
+                </ul>
+                <br>
+
+
+        </header>
+
+
+
+        <div id="dropdown">
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Interior
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Seats</button></li>
+                    <li><button class="dropdown-item" type="button">Harnesses</button></li>
+                    <li><button class="dropdown-item" type="button">Pedals</button></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Exterior
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Lights</button></li>
+                    <li><button class="dropdown-item" type="button">Window</button></li>
+                    <li><button class="dropdown-item" type="button">Hoods</button></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Wheels
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Air Valves</button></li>
+                    <li><button class="dropdown-item" type="button">Wheel Blots</button></li>
+                    <li><button class="dropdown-item" type="button">Wheel Outlet</button></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Engine
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Air Induction</button></li>
+                    <li><button class="dropdown-item" type="button">Fule System</button></li>
+                    <li><button class="dropdown-item" type="button">Engine Mounts</button></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Accessories
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Car Covers</button></li>
+                    <li><button class="dropdown-item" type="button">Helmets</button></li>
+                    <li><button class="dropdown-item" type="button">Keys Accessories</button></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Brakes
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Break Calipers</button></li>
+                    <li><button class="dropdown-item" type="button">Big Break Kits</button></li>
+                    <li><button class="dropdown-item" type="button">Break Fluids</button></li>
+                </ul>
+            </div>
+            <div class="dropdown">
+                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Cleaning Products
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                    <li><button class="dropdown-item" type="button">Interior Cleaning</button></li>
+                    <li><button class="dropdown-item" type="button">Air Freshener</button></li>
+                    <li><button class="dropdown-item" type="button">Engine Bay</button></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="head-title">Select Your MAZDA</h1>
+    <ul id="myUL">
+        <div id="cards" class="text-center paddasection">
+
+            <li><a href="#">
+                    <div class="card image mb-3" style="max-width: 18rem;">
+                        <div class="card-header">
+                            <h2>CIVIC 2022</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="cars"
+                                src="https://www.infomotori.com/content/uploads/2021/06/honda-civic-hatchback-2021-728x415.jpg?x16018"
+                                alt="">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </a> </li>
+            <li><a href="#">
+                    <div class="card image mb-3" style="max-width: 18rem;">
+                        <div class="card-header">
+                            <h2>CIVIC 2016-2021</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="cars"
+                                src="https://almalnews.com/wp-content/uploads/2020/12/%D8%B3%D8%B9%D8%B1-%D9%87%D9%88%D9%86%D8%AF%D8%A7-%D8%B3%D9%8A%D9%81%D9%8A%D9%83.png"
+                                alt="">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div class="card image mb-3" style="max-width: 18rem;">
+                        <div class="card-header">
+                            <h2>CIVIC 2012-2015</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="cars"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJuaWKxYYa5kJlw1y2H19eNpeBInVgdxobBA&usqp=CAU"
+                                alt="">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </a></li>
+            <li><a href="#">
+                    <div class="card image mb-3" style="max-width: 18rem;">
+                        <div class="card-header">
+                            <h2>CIVIC 2006-2011</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="cars"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUb3Vn2XGOGwgvW333hBDB0GG3sYFBbGJQ1j1J41Vgs_ETbW5por7mx_vr1FwFlbczr3Q&usqp=CAU"
+                                alt="">
+                            <h4 class="card-title"></h4>
+                            <p class="card-text"></p>
+                        </div>
+                    </div>
+                </a></li>
+
+    </ul>
+    </div>
+    </div>
+
+
+
+
+
+    <div id="about">
+        <img class="img" src="https://cdn.carbuzz.com/gallery-images/840x560/840000/200/840254.jpg" alt="">
+        <h1 class="title">About Us</h1>
+        <div class="text">
+            <h2>We Are Here Since 2010</h2>
+            <br>
+            <p><b>Abo Elezz Car Tuning</b>, is a well established name in the car and tuning world.</p>
+            <p>we focus on our individual customers and their driving pleasure. This is what defines our work.</p>
+            <p>Our aim is simple - to bring engineered performance upgrades to like minded enthusiaists which work and
+                that are
+                not
+                exaggerated in their power claims. In addition to this our aim is to deliver the best service and after
+                sales in
+                the
+                industry. We treat our clients as we would like to be treated.
+            </p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div>
+            <h1>Contact</h1>
+        </div>
+        <br />
+        <div class="col-md-6">
+            <div id="info">
+                <h2>Address:</h2>
+                <p class="backg">AboElezz Car Tuning | محل ابو العز لكماليات السيارات <br>
+                    Port Said Governorate, Egypt محمد حمزة، قسم المناخ، بور سعيد</p>
+                <h2>Work Schedule:</h2>
+                <p>
+                    Sat-Thu: (12:00 PM - 1:00 AM)<br>
+                    Fri: <b>CLOSED</b>
+                </p>
+                <h2>Get In Touch:</h2>
+                <p><a style="color: rgba(255, 255, 255, 0.658) !important;" href="tel: +201220558474">+201220558474</a>
+                </p>
+                <h2>Social:</h2>
+                <p id="social">
+                    <a href="https://www.facebook.com/Amraboelezz" target="_blank"> <i class="social fab fa-facebook"
+                            title="Facebook"></i> </a>
+                    <a href="tel: +201220558474"> <i class="social fab fa-whatsapp" title="Whatsapp"></i> </a>
+                </p>
+            </div>
+            <div id="googlemap">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3410.2691167595212!2d32.269878129113785!3d31.26865041119531!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f99dcf124d646f%3A0x29df9840c7561802!2z2YXYrdmEINin2KjZiCDYp9mE2LnYsiDZhNmD2YXYp9mE2YrYp9iqINin2YTYs9mK2KfYsdin2Ko!5e0!3m2!1sar!2seg!4v1665070416187!5m2!1sar!2seg"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <br />
+        <div class="col-md-6">
+            <form class="my-form">
+                <div class="form-group">
+                    <label for="form-name">Name:</label>
+                    <input type="email" class="form-control" id="form-name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="form-email">Email Address:</label>
+                    <input type="email" class="form-control" id="form-email"
+                        placeholder="Enter Your Valid Email Address">
+                </div>
+                <div class="form-group">
+                    <label for="form-subject">Phone Number</label>
+                    <input type="number" class="form-control" id="form-subject" placeholder="+201200000000">
+                </div>
+                <div class="form-group">
+                    <label for="form-message">Email your Message</label>
+                    <textarea class="form-control" id="form-message" placeholder="Your Message"></textarea>
+                </div>
+                <div id="submit">
+                    <button class="btn btn-default" type="submit">Contact Us</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- uppage -->
+    <a href="#"><img class="uppage" src="up_icon.png" title="up page" alt="up page"></a>
+
+    <footer>
+        <div class="text-center py-3" style="border-top: 2px solid rgba(255, 193, 7); width: 100%;">
+            <p>Powered by EA Coder 2022</p>
+
+            <div id="icons">
+                <a href="https://www.facebook.com/groups/291003597744622" title="facebook group" target="_blank"><img
+                        id="faceicon" src="facebook_icon.png" alt="facebook"></a> <br> <br>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/AboElezz-Car-Tuning/app.js"></script>
+    <script src="https://kit.fontawesome.com/e8eaff1617.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
