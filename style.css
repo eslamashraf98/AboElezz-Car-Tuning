@@ -146,6 +146,14 @@ h2{
     width: 150px !important;
     margin: 14px;
 }
+#chevrolet {
+    width: 250px !important;
+    margin: -15px;
+}
+#toyota {
+    width: 200px !important;
+    margin: 10px;
+}
 #myUL{
     padding: 0px !important;
 }
