@@ -148,10 +148,10 @@
     }
 
     footer p {
-        font-size: 20px;
+        font-size: 15px;
         color: rgba(255, 255, 255, 0.726) !important;
         font-weight: bolder;
-        margin-bottom: 20px;
+        margin: 20px;
     }
 
     footer img {
@@ -475,8 +475,9 @@ form::placeholder {
     right: 0;
     width: 40px;
     margin: 35px;
-    background-color: rgba(255, 255, 255, 0.781);
+    background-color: rgba(255, 230, 0, 0.781);
     transition: .5s all;
+    border-radius: 25%;
 }
 
 .uppage:hover {
@@ -518,7 +519,7 @@ form::placeholder {
 
 #head-title {
     width: 70%;
-    font-size: 20px;
+    font-size: 18px;
 }
 
     .input-group .btn {

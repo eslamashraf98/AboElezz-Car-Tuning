@@ -142,7 +142,7 @@ footer {
 }
 
 footer p {
-    font-size: 20px;
+    font-size: 15px;
     color: rgba(255, 255, 255, 0.726) !important;
     font-weight: bolder;
     margin: 20px;
@@ -489,8 +489,9 @@ form::placeholder {
     right: 0;
     width: 40px;
     margin: 35px;
-    background-color: rgba(255, 255, 255, 0.781);
+    background-color: rgb(222 182 176);
     transition: .5s all;
+    border-radius: 25%;
 }
 
 .uppage:hover {
