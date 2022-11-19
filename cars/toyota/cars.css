@@ -327,6 +327,7 @@
     color: rgb(65, 65, 65) !important;
     margin-left: 30px;
     margin-top: 30px;
+    font-size: 25px;
 }
 
 .text p {
@@ -444,7 +445,7 @@
 
 .my-form .btn-default:hover {
     background-color: #fff200;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid #fff;
     color: #000;
 }
 
@@ -615,10 +616,10 @@ form::placeholder {
         margin-top: 250px !important;
     }
     .text h2{
+        margin-left: 21px;
+        margin-top: 34px;
         font-size: 25px;
-        margin-left: 18px;
-            margin-top: 30px;
-            margin-bottom: -10px;
+        margin-bottom: -10px;
     }
     #about .img {
         width: 100%;

@@ -492,6 +492,7 @@ form::placeholder {
     background-color: rgb(222 182 176);
     transition: .5s all;
     border-radius: 25%;
+    border: 2px solid whitesmoke;
 }
 
 .uppage:hover {
