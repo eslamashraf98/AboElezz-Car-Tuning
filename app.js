@@ -62,3 +62,6 @@ function myFunctionUp() {
     }
 };
 
+var sold = document.querySelector(".sold")
+sold.innerHTML = "OUT OF STOCK";
+sold.style.background = "#f44";

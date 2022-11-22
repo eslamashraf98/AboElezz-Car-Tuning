@@ -114,8 +114,8 @@
 
     .card {
         max-width: 250px !important;
-        width: 250px;
-        height: 350px;
+        width: 250px !important;
+        height: 200px !important;
         color: rgb(0, 0, 0);
         text-align: center !important;
         margin: auto !important;
@@ -123,14 +123,27 @@
         margin: 10px!important;
         border-radius: 5px !important;
     }
-    .card-text{
+    .sold{
         width: 100%;
         height: auto;
         margin: auto;
         text-align: center;
-        background-color: #00ff156b;
+        background-color: #f44;
+        color: white;
         border-radius: 5px;
         padding: 5px;
+        font-weight: 600;
+    }
+    .available{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: #00ff15a6;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: 600;
     }
     .card h2{
         font-size: 18px !important;
