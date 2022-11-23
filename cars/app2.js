@@ -9,8 +9,10 @@ function myFunction() {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
+            // sorry.style.display = "none";
         } else {
             li[i].style.display = "none";
+            // sorry.style.display = "block";
         }
     };
 };
@@ -27,7 +29,6 @@ function myFunctions() {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
-
         } else {
             li[i].style.display = "none";
         }
@@ -36,10 +37,22 @@ function myFunctions() {
 };
 
 
+function vis() {
+    let search = document.getElementsByClassName("search")
+    let select = document.getElementById("head-title")
+    if (onclick = search) {
+        select.style.display = "none";
+    } else {
+        select.style.display = "block";
+    }
+};
 
 // uppage
+
 window.onscroll = function() {myFunctionUp()};
+
 let UpPage = document.querySelector(".uppage")
+
 function myFunctionUp() {
   if (window.scrollY <= 1000) {
     UpPage.style.opacity = 0;
@@ -48,3 +61,6 @@ function myFunctionUp() {
     }
 };
 
+var sold = document.querySelector(".sold")
+sold.innerHTML = "OUT OF STOCK";
+sold.style.background = "#f44";

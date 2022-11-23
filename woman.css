@@ -79,22 +79,9 @@ header {
     outline-width: 0px !important;
 }
 
-#cards {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-    justify-content: center;
-}
 
 .card-body {
     background-color: rgba(255, 255, 255, 0.295);
-}
-
-.card-body:hover {
-    background-color: rgba(255, 255, 255, 0.753);
-    transition: .5s all;
 }
 
 .card-header {
@@ -109,23 +96,62 @@ h2 {
 }
 
 .cars {
-    width: 150px !important;
-
+    width: 85% !important;
 }
+    #cards {
+        display: flex;
+        flex-wrap: wrap;
+        width: 99%;
+        height: auto ;
+        text-align: center;
+        justify-content: center;
+    }
+    .card {
+        max-width: 300px !important;
+        width: 250px !important;
+        min-height: 300px !important;
+        max-height: 450px !important;
+        text-align: center !important;
+        margin: auto !important;
+        background-color: rgba(255, 255, 255, 0.774) !important;
+        margin: 10px!important;
+        border-radius: 5px !important;
+    }
 
-.card {
-    max-width: 300px !important;
-    width: 300px !important;
-    height: auto;
-    color: black;
-    background-color: #22222200 !important;
-    font-size: 25px;
-    text-align: center !important;
-    margin: auto !important;
-}
+    .sold{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: rgb(255, 61, 61);
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: 600;
+    }
+    .available{
+        width: 100%;
+        height: auto;
+        margin: auto;
+        text-align: center;
+        background-color: #00cf11a6;
+        color: white;
+        border-radius: 5px;
+        padding: 5px;
+        font-weight: 600;
+    }
+    .card h2{
+        font-size: 18px !important;
+        color: rgb(0, 0, 0);
+    }
 
 #myUL {
+    width: 100%;
+    height: auto;
     padding: 0px !important;
+    display: flex;
+    flex-wrap: nowrap !important;
+    flex-direction: row !important;
 }
 
 #myUL li a {
@@ -139,23 +165,45 @@ h2 {
 
 footer {
     background-color: rgba(0, 0, 0, 0.932);
+    height: auto;
 }
-
+.text-center{
+    border-top: 2px solid rgb(204, 56, 128);
+    width: 100%;
+    height: auto;
+    padding-top: 40px !important;
+}
+.footer-div1{
+    width: 20% !important;
+    float: left !important;
+    margin-top: 35px !important;
+}
+.footer-div2{
+    float: right !important;
+    width: 60% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-top: -70px;
+}
+.footer-icon{
+    float: left;
+    width: 150px !important;
+    margin-left: 50px;
+    margin-top: 5px;
+    border-radius: 10px !important;
+}
+.footer-social{
+    float: left;
+    margin-left: 70px !important;
+    border-radius: 10px !important;
+}
 footer p {
     font-size: 15px;
     color: rgba(255, 255, 255, 0.726) !important;
-    font-weight: bolder;
-    margin: 20px;
+    font-weight: bolder;    
 }
-
-/* footer img {
-    width: 150px;
-}
-
-footer img:hover {
-    transform: scale(0.9);
-    transition: .5s all;
-} */
 
 #dropdown {
     background-color: rgb(250 202 214);    width: 100%;
@@ -301,7 +349,7 @@ header ul {
 }
 
 .main{
-    height: 1000px;
+    height: auto;
 }
 
 #about {

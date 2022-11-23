@@ -244,7 +244,7 @@ h2{
         height: auto;
         margin: auto;
         text-align: center;
-        background-color: #f44;
+        background-color: rgb(255, 61, 61);
         color: white;
         border-radius: 5px;
         padding: 5px;
@@ -255,7 +255,7 @@ h2{
         height: auto;
         margin: auto;
         text-align: center;
-        background-color: #00ff15a6;
+        background-color: #00cf11a6;
         color: white;
         border-radius: 5px;
         padding: 5px;
