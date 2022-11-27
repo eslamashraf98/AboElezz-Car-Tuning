@@ -101,10 +101,11 @@ h2 {
     #cards {
         display: flex;
         flex-wrap: wrap;
-        width: 99%;
+        width: 100%;
         height: auto ;
         text-align: center;
         justify-content: center;
+        padding-top: 35px !important;
     }
     .card {
         max-width: 300px !important;
@@ -195,12 +196,15 @@ footer {
 }
 .footer-div2 h3{
     color: rgba(68, 68, 68, 0.884);
+    margin-bottom: 10px !important;
 }
 .footer-div2 a{
     color: rgb(165, 165, 165);
+    line-height: 25px !important;
+    text-align: start !important;
 }
 .footer-div2 a:hover {
-    color: rgba(90, 90, 90, 0.74);
+    color: rgb(204, 56, 128);
 }
 .footer-icon{
     float: left;
@@ -775,26 +779,25 @@ form::placeholder {
 .my-form .btn-default {
     margin: auto !important;
 }
-.text-center {
-    border-top: 2px solid rgb(204, 56, 128);
-    width: 100%;
-    height: auto;
-    padding-top: 100px !important;
+
+footer #cars{
+    width: 50% !important;
+    margin: auto !important;
 }
 
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
+
 }
 .footer-div2 {
-    width: 60% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
-    margin-right: 135px;
-    margin-top: -50px;
+    margin: auto;
     margin-bottom: 30px;
-    text-align: start !important;
+    margin-top: -45px;
+    text-align: center !important;
 }
 
 .footer-icon {
@@ -1025,18 +1028,18 @@ footer p {
 }
 .footer-div2 a {
     color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
 }
 
 .footer-div2 {
-    width: 60% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
-    margin-right: 135px;
-    margin-top: -50px;
+    margin: auto;
     margin-bottom: 30px;
-    text-align: start !important;
+    margin-top: -45px;
+    text-align: center !important;
 }
 
 .footer-icon {
@@ -1271,18 +1274,18 @@ footer p {
 }
 .footer-div2 a {
     color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
 }
 
 .footer-div2 {
-    width: 60% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
-    margin-right: 135px;
-    margin-top: -50px;
+    margin: auto;
     margin-bottom: 30px;
-    text-align: start !important;
+    margin-top: -45px;
+    text-align: center !important;
 }
 
 .footer-icon {
@@ -1516,19 +1519,18 @@ footer p {
     margin: auto !important;
 }
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
 }
 
 .footer-div2 {
-    width: 60% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
-    margin-right: 150px;
-    margin-top: -50px;
+    margin: auto;
     margin-bottom: 30px;
-    text-align: start !important;
+    margin-top: -45px;
+    text-align: center !important;
 }
 
 .footer-icon {
@@ -1764,19 +1766,18 @@ footer p {
 }
 
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
 }
 
 .footer-div2 {
-    width: 60% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
-    margin-right: 150px;
-    margin-top: -50px;
+    margin: auto;
     margin-bottom: 30px;
-    text-align: start !important;
+    margin-top: -45px;
+    text-align: center !important;
 }
 
 .footer-icon {
@@ -2012,19 +2013,18 @@ footer p {
 }
 
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
 }
 
 .footer-div2 {
-    width: 60% !important;
+    width: 100% !important;
     display: flex;
     flex-direction: column;
-    margin-right: 150px;
-    margin-top: -50px;
+    margin: auto;
     margin-bottom: 30px;
-    text-align: start !important;
+    margin-top: -45px;
+    text-align: center !important;
 }
 
 .footer-icon {
@@ -2257,10 +2257,12 @@ footer p {
 .my-form .btn-default {
     margin: auto !important;
 }
-
+footer #cars {
+    width: 40% !important;
+    margin: auto !important;
+}
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 35px !important;
     font-size: 20px !important;
 }
 
@@ -2506,9 +2508,12 @@ footer p {
 .my-form .btn-default {
     margin: auto !important;
 }
+footer #cars {
+    width: 40% !important;
+    margin: auto !important;
+}
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 30px !important;
     font-size: 20px !important;
 }
 
@@ -2761,10 +2766,12 @@ footer p {
 .my-form .btn-default {
     margin: auto !important;
 }
-
+footer #cars {
+    width: 35% !important;
+    margin: auto !important;
+}
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 30px !important;
     font-size: 20px !important;
 }
 
@@ -2932,8 +2939,7 @@ footer p {
     margin: auto !important;
 }
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 30px !important;
     font-size: 20px !important;
 }
 
@@ -2977,7 +2983,8 @@ footer p {
     font-size: 30px;
 }
 .footer-div2 a {
-    font-size: 25px !important;
+    font-size: 22px !important;
+    line-height: 35px !important;
 }
 #social3 .social {
     margin: auto !important;
@@ -3107,8 +3114,7 @@ footer p {
     margin: auto !important;
 }
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 30px !important;
     font-size: 20px !important;
 }
 
@@ -3154,7 +3160,8 @@ footer p {
 }
 
 .footer-div2 a {
-    font-size: 25px !important;
+    font-size: 23px !important;
+    line-height: 40px !important;
 }
 
 #social3 .social {
@@ -3282,8 +3289,7 @@ footer p {
     margin: auto !important;
 }
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 30px !important;
     font-size: 20px !important;
 }
 
@@ -3330,6 +3336,7 @@ footer p {
 
 .footer-div2 a {
     font-size: 25px !important;
+    line-height: 40px !important;
 }
 
 #social3 .social {
@@ -3348,8 +3355,7 @@ footer p {
     height: 1180px;
 }
 .footer-div2 a {
-    color: rgb(165, 165, 165);
-    margin-left: 5px !important;
+    line-height: 30px !important;
     font-size: 20px !important;
 }
 
@@ -3396,6 +3402,7 @@ footer p {
 
 .footer-div2 a {
     font-size: 25px !important;
+    line-height: 40px !important;
 }
 
 #social3 .social {
