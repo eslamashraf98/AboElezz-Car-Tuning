@@ -1,5 +1,5 @@
 // searchbar for #first mobile
-function myFunction() {
+function myFunctionw() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -19,7 +19,7 @@ function myFunction() {
 
 
 // searchbar for #second laptop
-function myFunctions() {
+function myFunctionws() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInputs");
     filter = input.value.toUpperCase();
@@ -34,17 +34,6 @@ function myFunctions() {
         }
     };
     console.log(ul);
-};
-
-
-function vis() {
-    let search = document.getElementsByClassName("search")
-    let select = document.getElementById("head-title")
-    if (onclick = search) {
-        select.style.display = "none";
-    } else {
-        select.style.display = "block";
-    }
 };
 
 // uppage

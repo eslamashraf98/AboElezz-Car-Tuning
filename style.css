@@ -163,12 +163,14 @@ h2{
     margin: 5px;
 }
 
-#others{
+section{
     height: auto;
     width: 100%;
     margin-top: 25px;
-    margin-bottom: -130px;
-    background-color: rgba(255, 255, 255, 0.877);
+    background-color: rgba(221, 220, 220, 0.863);
+    margin-bottom: -15px !important;
+    margin-top: 0px !important;
+    border-top: 2px solid rgba(255, 193, 7)
 }
 .any{
     margin: auto;
@@ -191,6 +193,9 @@ h2{
     width: 25%;
     border-radius: 10px;
     margin-bottom: -150px;
+}
+.XL {
+    width: 35%;
 }
 
 .others-section{
@@ -232,6 +237,9 @@ h2{
     width: 60% !important;
     border-radius: 5px;
     font-weight: 600 !important;
+}
+.XL {
+    width: 65% !important;
 }
 .card-group .card {
     max-width: 200px !important;
@@ -330,8 +338,9 @@ footer {
 }
 
 .footer-div2 h3 {
-    color: rgba(255, 255, 255, 0.911);
+    color: rgba(255, 255, 255, 0.753);
     margin-bottom: 10px !important;
+    font-size: 22px;
 }
 
 .footer-div2 a {
@@ -425,7 +434,7 @@ header ul {
 }
 
 .nav-item{
-    text-align: center !important;
+    text-align: start !important;
     margin: auto !important;
     left: 50%;
 }

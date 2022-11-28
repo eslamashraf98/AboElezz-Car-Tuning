@@ -139,28 +139,87 @@
         display: block
     }
 
-    footer {
-        background-color: rgba(0, 0, 0, 0.815);
-    }
+footer {
+    border-top: 2px solid rgba(255, 193, 7);
+    background-color: rgb(0, 0, 0);
+    height: auto !important;
+}
 
-    footer hr {
-        color: yellow !important;
-    }
+.footer-icon2 {
+    display: none;
+}
 
-    footer p {
-        font-size: 15px;
-        color: rgba(255, 255, 255, 0.726) !important;
-        font-weight: bolder;
-        margin: 20px;
-    }
+#social3 {
+    display: none;
+}
 
-    footer img {
-        width: 150px;
-    }
+.text-center {
+    width: 100%;
+    height: auto;
+    padding-top: 30px !important;
+}
 
-    footer img:hover {
-        transform: scale(0.9);
-    }
+.footer-div1 {
+    width: 150px !important;
+    float: left !important;
+    margin-top: 35px !important;
+}
+
+.footer-div2 {
+    float: right !important;
+    width: 60% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 200px;
+    margin-top: -70px;
+}
+
+.footer-div2 h3 {
+    color: rgba(255, 255, 255, 0.753);
+    margin-bottom: 10px !important;
+    font-size: 22px;
+}
+
+.footer-div2 a {
+    color: rgba(138, 138, 138, 0.938);
+    line-height: 25px !important;
+    text-align: start !important;
+}
+
+.footer-div2 a:hover {
+    color: rgba(254, 241, 2, 0.849);
+}
+
+.footer-icon {
+    float: left;
+    width: 150px !important;
+    margin-left: 90px;
+    margin-top: 5px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 150px;
+    margin-left: 95px !important;
+    justify-content: space-between !important;
+}
+
+.footer-social {
+    float: left;
+    margin-left: 75px !important;
+    border-radius: 10px !important;
+}
+
+footer p {
+    font-size: 15px;
+    color: rgba(199, 199, 199, 0.849) !important;
+    font-weight: bolder;
+    margin-top: 50px;
+}
 
 #dropdown {
     background-color: rgba(0, 0, 0, 0.527);
@@ -219,7 +278,7 @@
     }
 
     .nav-item {
-        text-align: center !important;
+        text-align: start !important;
         margin: auto !important;
         left: 50%;
     }
@@ -672,7 +731,63 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+footer #cars {
+    width: 50% !important;
+    margin: auto !important;
+}
 
+.footer-div2 a {
+    line-height: 35px !important;
+    font-size: 20px !important;
+
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 401px) and (max-width: 424px) {
@@ -854,6 +969,52 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 425px) and (max-width: 449px) {
@@ -1047,6 +1208,58 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 a {
+    color: rgb(165, 165, 165);
+    line-height: 35px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 450px) and (max-width: 474px) {
@@ -1238,6 +1451,57 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 a {
+    line-height: 35px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 475px) and (max-width: 499px) {
@@ -1431,6 +1695,57 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 a {
+    line-height: 35px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 500px) and (max-width: 524px) {
@@ -1631,6 +1946,57 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 a {
+    line-height: 35px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 30px;
+    margin-top: -45px;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 525px) and (max-width: 560px) {
@@ -1816,6 +2182,63 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 a {
+    line-height: 35px !important;
+    font-size: 20px !important;
+}
+
+footer #cars {
+    width: 40% !important;
+    margin: auto !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 561px) and (max-width: 600px) {
@@ -2001,6 +2424,63 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+footer #cars {
+    width: 40% !important;
+    margin: auto !important;
+}
+
+.footer-div2 a {
+    line-height: 30px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 601px) and (max-width: 650px) {
@@ -2193,6 +2673,63 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+footer #cars {
+    width: 35% !important;
+    margin: auto !important;
+}
+
+.footer-div2 a {
+    line-height: 30px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 220px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 15px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 651px) and (max-width: 800px) {
@@ -2306,6 +2843,67 @@ form::placeholder {
     .my-form .btn-default {
         margin: auto !important;
     }
+.footer-div2 a {
+    line-height: 30px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 250px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+.footer-div2 h3 {
+    font-size: 30px;
+}
+
+.footer-div2 a {
+    font-size: 22px !important;
+    line-height: 35px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 801px) and (max-width: 910px) {
@@ -2421,6 +3019,67 @@ form::placeholder {
         width: 20%;
         font-size: 20px;
     }
+.footer-div2 a {
+    line-height: 30px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 250px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+.footer-div2 h3 {
+    font-size: 30px;
+}
+
+.footer-div2 a {
+    font-size: 23px !important;
+    line-height: 40px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 911px) and (max-width: 1040px) {
@@ -2525,14 +3184,136 @@ form::placeholder {
         font-size: 25px;
         margin-top: 10px !important;
     }
+.footer-div2 a {
+    line-height: 30px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 250px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+.footer-div2 h3 {
+    font-size: 30px;
+}
+
+.footer-div2 a {
+    font-size: 25px !important;
+    line-height: 40px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: -20px;
+}
 }
 
 @media (min-width: 1041px) and (max-width: 1290px) {
-    #contact {
-        height: 1160px;
+    #contact{
+        height: 1100px;
     }
     #head-title {
     width: 50%;
     font-size: 30px;
+}
+.footer-div2 a {
+    line-height: 30px !important;
+    font-size: 20px !important;
+}
+
+.footer-div2 {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    margin-right: 0px !important;
+    margin-top: -50px;
+    margin-bottom: 30px;
+    justify-content: space-around !important;
+    text-align: center !important;
+}
+
+.footer-icon {
+    display: none;
+}
+
+.footer-icon2 {
+    display: flex;
+    width: 250px !important;
+    margin: auto !important;
+    margin-bottom: -20px;
+    border-radius: 10px !important;
+}
+
+#social2 {
+    display: none;
+}
+
+#social3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    width: 100% !important;
+    justify-content: center !important;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+}
+
+.footer-div2 h3 {
+    font-size: 30px;
+}
+
+.footer-div2 a {
+    font-size: 25px !important;
+    line-height: 40px !important;
+}
+
+#social3 .social {
+    margin: auto !important;
+    margin: 20px !important;
+}
+
+footer p {
+    font-size: 18px;
+    font-weight: bolder;
+    margin-top: -20px;
 }
 }
