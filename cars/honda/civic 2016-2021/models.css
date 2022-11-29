@@ -105,8 +105,8 @@
         width: 100%;
         text-align: center;
         justify-content: center;
-        margin-bottom: -10px !important;
         padding-bottom: 30px !important;
+        margin-bottom: -10px !important;
     }
 
     .cars {
@@ -116,7 +116,8 @@
     .card {
         max-width: 250px !important;
         width: 250px !important;
-        height: 350px !important;
+        max-width: 400px;
+        height: 380px !important;
         color: rgb(0, 0, 0);
         text-align: center !important;
         margin: auto !important;

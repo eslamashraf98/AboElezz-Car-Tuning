@@ -603,6 +603,7 @@ form::placeholder {
 
     #first {
         display: block !important;
+        margin-bottom: 0px;
         background-color: rgb(250 202 214) !important;
     }
 
@@ -627,13 +628,10 @@ form::placeholder {
     margin-bottom: 50px;
     transition: .2s;
 }
-#btn{
-    margin-right: 30px !important;
-}
     .btn-light {
-        width: 85px !important;
+        width: 100px !important;
         color: #b31a72;
-        font-size: 11px !important;
+        font-size: 14px !important;
     }
 
     .input-group .btn {
