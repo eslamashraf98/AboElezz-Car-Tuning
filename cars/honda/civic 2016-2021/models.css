@@ -17,7 +17,7 @@
 
     header {
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.541);
+        background-color: rgba(0, 0, 0, 0.808);
         text-align: center;
     }
 
@@ -159,7 +159,7 @@
     #myUL {
         height: auto;
         padding: 0px !important;
-        background-color: rgba(0, 0, 0, 0.863) !important;
+        background-color: rgba(0, 0, 0, 0.541) !important;
         list-style-type: none;
         border-top: 2px solid rgba(255, 193, 7);
     }
@@ -256,12 +256,13 @@ footer p {
 }
 
 #dropdown {
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.808);
     width: 100%;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
+    border-bottom: 2px solid #fef102e0;
 }
 
 .dropdown {
@@ -596,7 +597,8 @@ form::placeholder {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #searchNav {
@@ -833,7 +835,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1062,7 +1065,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1307,7 +1311,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1549,7 +1554,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1793,7 +1799,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2044,7 +2051,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2286,7 +2294,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2528,7 +2537,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {

@@ -14,7 +14,7 @@ body{
 }
 header{
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.541);
+    background-color: rgba(0, 0, 0, 0.808);
     text-align: center;
 }
 
@@ -360,12 +360,13 @@ footer p {
     margin-top: 50px;
 }
 #dropdown{
-    background-color: rgba(0, 0, 0, 0.527);
+    background-color: rgba(0, 0, 0, 0.808);
     width: 100%;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
+    border-bottom: 2px solid #fef102e0;
 }
 .dropdown{
     text-align: center !important;
@@ -669,7 +670,8 @@ header ul {
     }
 #first{
     display: block !important;
-    background-color: rgba(0, 0, 0, 0.616);
+    background-color: rgba(0, 0, 0, 0.808);
+    border-bottom: 2px solid #fef102e0;
     }
 #head-title{
     width: 70%;
@@ -904,7 +906,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
         #second {
@@ -1135,7 +1138,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1375,7 +1379,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1614,7 +1619,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1853,7 +1859,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2094,7 +2101,7 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
     }
 
     #second {
@@ -2338,7 +2345,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2584,7 +2592,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {

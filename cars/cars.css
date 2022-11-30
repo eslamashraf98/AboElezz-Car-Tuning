@@ -17,7 +17,7 @@
 
     header {
         width: 100%;
-        background-color: rgba(0, 0, 0, 0.541);
+        background-color: rgba(0, 0, 0, 0.808);
         text-align: center;
     }
 
@@ -561,7 +561,8 @@ form::placeholder {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #searchNav {
@@ -798,7 +799,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1027,7 +1029,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1272,7 +1275,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1514,7 +1518,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1758,7 +1763,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2009,7 +2015,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2251,7 +2258,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2491,10 +2499,11 @@ footer p {
         margin-right: 50px;
     }
 
-    #first {
-        display: block !important;
-        background-color: rgba(0, 0, 0, 0.616);
-    }
+        #first {
+            display: block !important;
+            background-color: rgba(0, 0, 0, 0.808);
+            border-bottom: 2px solid #fef102e0;
+        }
 
     #second {
         display: none !important;
