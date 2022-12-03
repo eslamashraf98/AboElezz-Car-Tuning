@@ -104,13 +104,17 @@ header {
     outline-width: 0px !important;
 }
 
-
 .card-body {
     background-color: rgba(255, 255, 255, 0.295);
+    border-radius-bottom: 10px !important;
 }
 
 .card-header {
     background-color: rgb(250 202 214) !important;
+    border-radius-top: 10px !important;
+}
+
+.cars{
     border-radius: 10px !important;
 }
 
@@ -119,10 +123,6 @@ h2 {
     font-size: 25px !important;
     font-weight: 600 !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-}
-
-.cars {
-    width: 85% !important;
 }
     #cards {
         display: flex;
