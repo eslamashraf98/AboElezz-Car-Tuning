@@ -3,6 +3,32 @@
         padding: 0;
     }
 
+                #loader {
+                    border: 12px solid #ffe600;
+                    border-radius: 50%;
+                    border-top: 12px solid #0f0f0f;
+                    width: 70px;
+                    height: 70px;
+                    animation: spin 1s linear infinite;
+                }
+        
+                @keyframes spin {
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+        
+                .center {
+                    position: fixed !important;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
+
+
     body {
         width: 100vw !important;
         height: 100vh !important;
@@ -27,7 +53,8 @@
         margin: auto;
         height: auto;
         border-radius: 10px;
-        margin: 10px;
+        margin-top: 30px !important;
+        margin-bottom: 15px !important;
     }
 
 .search {
@@ -111,6 +138,11 @@
 
     .cars {
         width: 100% !important;
+        border-radius: 10px;
+    }
+
+    .d-block{
+        border-radius: 10px !important;
     }
 
     .card {

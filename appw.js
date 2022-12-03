@@ -1,5 +1,20 @@
+        document.onreadystatechange = function() {
+            if (document.readyState !== "complete") {
+                document.querySelector(
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                  "#loader").style.visibility = "visible";
+            } else {
+                document.querySelector(
+                  "#loader").style.display = "none";
+                document.querySelector(
+                    "body").style.visibility = "visible";
+            }
+        };
+
+
 // searchbar for #first mobile
-function myFunctionw() {
+function myFunction() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
@@ -19,7 +34,7 @@ function myFunctionw() {
 
 
 // searchbar for #second laptop
-function myFunctionws() {
+function myFunctions() {
     var input, filter, ul, li, a, i;
     input = document.getElementById("myInputs");
     filter = input.value.toUpperCase();
@@ -34,6 +49,17 @@ function myFunctionws() {
         }
     };
     console.log(ul);
+};
+
+
+function vis() {
+    let search = document.getElementsByClassName("search")
+    let select = document.getElementById("head-title")
+    if (onclick = search) {
+        select.style.display = "none";
+    } else {
+        select.style.display = "block";
+    }
 };
 
 // uppage
@@ -53,3 +79,5 @@ function myFunctionUp() {
 var sold = document.querySelector(".sold")
 sold.innerHTML = "OUT OF STOCK";
 sold.style.background = "#f44";
+
+

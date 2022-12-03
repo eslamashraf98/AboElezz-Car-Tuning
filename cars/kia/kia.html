@@ -19,6 +19,8 @@
 
 <body>
 
+    <!-- Loader -->
+    <div id="loader" class="center"></div>
 
     <header id="first" style="display: none;">
         <a href="#"> <img id="logo" src="abo1.png" alt="logo"> </a>
@@ -40,108 +42,36 @@
                 <div id="searchNav">
 
                     <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <a href="/AboElezz-Car-Tuning/interior.html"><button class="btn btn-secondary" type="button"
+                                id="dropdownMenu2">
                                 Interior
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Seats</button></li>
-                                <li><button class="dropdown-item" type="button">Harnesses</button></li>
-                                <li><button class="dropdown-item" type="button">Pedals</button></li>
-                            </ul>
-                        </div>
-                        </a>
+                            </button></a>
                     </li>
                     <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <a href="/AboElezz-Car-Tuning/exterior.html"><button class="btn btn-secondary" type="button"
+                                id="dropdownMenu2">
                                 Exterior
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Lights</button></li>
-                                <li><button class="dropdown-item" type="button">Window</button></li>
-                                <li><button class="dropdown-item" type="button">Hoods</button></li>
-                            </ul>
-                        </div>
-                        </a>
+                            </button></a>
                     </li>
                     <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Wheels
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Air Valves</button></li>
-                                <li><button class="dropdown-item" type="button">Wheel Blots</button></li>
-                                <li><button class="dropdown-item" type="button">Wheel Outlet</button></li>
-                            </ul>
-                        </div>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Engine
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Air Induction</button></li>
-                                <li><button class="dropdown-item" type="button">Fule System</button></li>
-                                <li><button class="dropdown-item" type="button">Engine Mounts</button></li>
-                            </ul>
-                        </div>
-                        </a>
-
-                    <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <a href="/AboElezz-Car-Tuning/accessories.html"><button class="btn btn-secondary" type="button"
+                                id="dropdownMenu2">
                                 Accessories
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Car Covers</button></li>
-                                <li><button class="dropdown-item" type="button">Helmets</button></li>
-                                <li><button class="dropdown-item" type="button">Keys Accessories</button></li>
-                            </ul>
-                        </div>
-                        </a>
-
+                            </button></a>
+                    </li>
                     <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                Brakes
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Break Calipers</button></li>
-                                <li><button class="dropdown-item" type="button">Big Break Kits</button></li>
-                                <li><button class="dropdown-item" type="button">Break Fluids</button></li>
-                            </ul>
-                        </div>
-                        </a>
-                    <li class="nav-item">
-                        <div class="dropdown dropend">
-                            <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                                aria-expanded="false">
+                        <a href="/AboElezz-Car-Tuning/cleaning-products.html"><button class="btn btn-secondary"
+                                type="button" id="dropdownMenu2">
                                 Cleaning Products
-                            </button>
-                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                                <li><button class="dropdown-item" type="button">Interior Cleaning</button></li>
-                                <li><button class="dropdown-item" type="button">Air Freshener</button></li>
-                                <li><button class="dropdown-item" type="button">Engine Bay</button></li>
-                            </ul>
-                        </div>
-                        </a>
-                        </button>
+                            </button></a>
+                    </li>
+
             </ul>
-        </div>
         </div>
         </div>
         </nav>
         </div>
+
         <div id="search-box" class="input-group search" onclick="vis()">
             <div class="form-outline">
                 <input id="myInput" type="text" onkeyup="myFunction()" class="form-control"
@@ -189,84 +119,32 @@
 
 
         <div id="dropdown">
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Interior
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Seats</button></li>
-                    <li><button class="dropdown-item" type="button">Harnesses</button></li>
-                    <li><button class="dropdown-item" type="button">Pedals</button></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Exterior
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Lights</button></li>
-                    <li><button class="dropdown-item" type="button">Window</button></li>
-                    <li><button class="dropdown-item" type="button">Hoods</button></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Wheels
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Air Valves</button></li>
-                    <li><button class="dropdown-item" type="button">Wheel Blots</button></li>
-                    <li><button class="dropdown-item" type="button">Wheel Outlet</button></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Engine
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Air Induction</button></li>
-                    <li><button class="dropdown-item" type="button">Fule System</button></li>
-                    <li><button class="dropdown-item" type="button">Engine Mounts</button></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Accessories
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Car Covers</button></li>
-                    <li><button class="dropdown-item" type="button">Helmets</button></li>
-                    <li><button class="dropdown-item" type="button">Keys Accessories</button></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Brakes
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Break Calipers</button></li>
-                    <li><button class="dropdown-item" type="button">Big Break Kits</button></li>
-                    <li><button class="dropdown-item" type="button">Break Fluids</button></li>
-                </ul>
-            </div>
-            <div class="dropdown">
-                <button class="btn btn-secondary" type="button" id="dropdownMenu2" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Cleaning Products
-                </button>
-                <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
-                    <li><button class="dropdown-item" type="button">Interior Cleaning</button></li>
-                    <li><button class="dropdown-item" type="button">Air Freshener</button></li>
-                    <li><button class="dropdown-item" type="button">Engine Bay</button></li>
-                </ul>
-            </div>
+            <li class="nav-item">
+                <a href="/AboElezz-Car-Tuning/interior.html"><button class="btn btn-secondary" type="button"
+                        id="dropdownMenu2">
+                        Interior
+                    </button></a>
+            </li>
+            <li class="nav-item">
+                <a href="/AboElezz-Car-Tuning/exterior.html"><button class="btn btn-secondary" type="button"
+                        id="dropdownMenu2">
+                        Exterior
+                    </button></a>
+            </li>
+            <li class="nav-item">
+                <a href="/AboElezz-Car-Tuning/accessories.html"><button class="btn btn-secondary" type="button"
+                        id="dropdownMenu2">
+                        Accessories
+                    </button></a>
+            </li>
+            <li class="nav-item">
+                <a href="/AboElezz-Car-Tuning/cleaning-products.html"><button class="btn btn-secondary" type="button"
+                        id="dropdownMenu2">
+                        Cleaning Products
+                    </button></a>
+            </li>
         </div>
+    </div>
     </div>
 
     <h1 id="head-title">Select Your KIA</h1>
@@ -459,10 +337,10 @@
                 </div>
                 <div>
                     <h3>For All Cars</h3>
-                    <a href="">Interior</a><br>
-                    <a href="">Exterior</a><br>
-                    <a href="">Accessories</a><br>
-                    <a href="">Cleaning Products</a><br>
+                    <a href="/AboElezz-Car-Tuning/interior.html">Interior</a><br>
+                    <a href="/AboElezz-Car-Tuning/exterior.html">Exterior</a><br>
+                    <a href="/AboElezz-Car-Tuning/accessories.html">Accessories</a><br>
+                    <a href="/AboElezz-Car-Tuning/cleaning-products.html">Cleaning Products</a><br>
                 </div>
             </div>
             <img class="footer-icon2" src="abo1.png" alt="logo">

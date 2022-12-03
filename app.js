@@ -1,14 +1,18 @@
         document.onreadystatechange = function() {
             if (document.readyState !== "complete") {
                 document.querySelector(
-                  "body").style.visibility = "hidden";
+                    "body").style.visibility = "hidden";
+                document.querySelector(
+                    "body").style.background = "rgba(0, 0, 0, 0.856)";
                 document.querySelector(
                   "#loader").style.visibility = "visible";
             } else {
                 document.querySelector(
                   "#loader").style.display = "none";
                 document.querySelector(
-                  "body").style.visibility = "visible";
+                    "body").style.visibility = "visible";
+                document.querySelector(
+                    "body").style.background = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU)";
             }
         };
 

@@ -1,32 +1,31 @@
 *{
     margin: 0;
     padding: 0;
-}
-
-        #loader {
-            border: 12px solid #ffee00;
-            border-radius: 50%;
-            border-top: 12px solid #000000;
-            width: 70px;
-            height: 70px;
-            animation: spin 1s linear infinite;
-            background-color: rgba(0, 0, 0, 0.808);
-        }
-          
-        @keyframes spin {
-            100% {
-                transform: rotate(360deg);
-            }
-        }
-          
-        .center {
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            margin: auto;
-        }
+}      
+                #loader {
+                    border: 12px solid #ffe600;
+                    border-radius: 50%;
+                    border-top: 12px solid #0f0f0f;
+                    width: 70px;
+                    height: 70px;
+                    animation: spin 1s linear infinite;
+                }
+        
+                @keyframes spin {
+                    100% {
+                        transform: rotate(360deg);
+                    }
+                }
+        
+                .center {
+                    position: fixed !important;
+                    position: absolute;
+                    top: 0;
+                    bottom: 0;
+                    left: 0;
+                    right: 0;
+                    margin: auto;
+                }
 
 body{
     width: 100vw !important;
@@ -54,7 +53,7 @@ li {
     margin: auto;
     height: auto;
     border-radius: 20px !important;
-    margin-top: 15px !important;
+    margin-top: 30px !important;
     margin-bottom: 15px !important;
 }
 
@@ -688,7 +687,7 @@ header ul {
 @media (max-width: 400px) {
 #logo {
     width: 80%;
-    margin: 10px;
+    margin-bottom: 0px !important;
     }
 
 #second{
@@ -927,8 +926,8 @@ footer p {
 @media (min-width: 401px) and (max-width: 424px) {
     #logo {
         width: 80%;
-        margin: 10px;
-    }
+        margin-bottom: 0px !important;
+        }
 
     #first {
         display: block !important;
