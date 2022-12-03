@@ -111,6 +111,7 @@ header {
 
 .card-header {
     background-color: rgb(250 202 214) !important;
+    border-radius: 10px !important;
 }
 
 h2 {
@@ -131,7 +132,7 @@ h2 {
         text-align: center;
         justify-content: center;
         padding-top: 35px !important;
-
+        border-radius: 10px !important;
     }
     .card {
         max-width: 300px !important;
@@ -142,10 +143,6 @@ h2 {
         margin: auto !important;
         background-color: rgba(255, 255, 255, 0.774) !important;
         margin: 10px!important;
-        border-radius: 10px !important;
-    }
-
-   .carousel-item{
         border-radius: 10px !important;
     }
 
