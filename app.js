@@ -79,9 +79,12 @@ function myFunctionUp() {
     UpPage.style.opacity = 0.5;
     }
 };
+    
 
-var sold = document.querySelector(".sold")
+var sold = document.querySelector(".sold");
+var card = document.querySelector(".card");
 sold.innerHTML = "OUT OF STOCK";
-sold.style.background = "#f44";
+
+
 
 

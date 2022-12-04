@@ -102,7 +102,9 @@
 }
 
     h2 {
-        font-size: 25px;
+        font-size: 30px !important;
+        font-weight: 600 !important;
+        color: white !important;
     }
 
     #myinput {
@@ -126,6 +128,9 @@
     #search-button:focus{
         outline: none !important;
     }
+.card-header{
+    background-color: #00cf11a6 !important;
+}
     #cards {
         display: flex;
         flex-wrap: wrap;
@@ -162,12 +167,17 @@
         height: auto;
         margin: auto;
         text-align: center;
-        background-color: rgb(255, 61, 61);
+        background-color: #ff3d3d;
         color: white;
         border-radius: 5px;
         padding: 5px;
         font-weight: 600;
-    }
+        }
+
+    .sold2{
+        background-color: #ff3d3d !important;
+        }
+
     .available{
         width: 100%;
         height: auto;
@@ -179,6 +189,7 @@
         padding: 5px;
         font-weight: 600;
     }
+
     .card h2{
         font-size: 18px !important;
         color: rgb(0, 0, 0);
@@ -518,13 +529,13 @@ footer p {
 }
 
 .fa-whatsapp:hover {
-    color: #17ff2b !important;
+    color: #12db23 !important;
     transform: scale(1.2);
     transition: .3s all;
 }
 
 .fa-facebook:hover {
-    color: #003cff !important;
+    color: #1d52ff !important;
     transform: scale(1.2);
     transition: .3s all;
 }
