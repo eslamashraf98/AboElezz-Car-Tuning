@@ -106,12 +106,10 @@ header {
 
 .card-body {
     background-color: rgba(255, 255, 255, 0.295);
-    border-bottom-radius: 10px !important;
 }
 
 .card-header {
     background-color: rgb(250 202 214) !important;
-    border-top-radius: 10px !important;
 }
 
 .cars{
@@ -132,7 +130,6 @@ h2 {
         text-align: center;
         justify-content: center;
         padding-top: 35px !important;
-        border-radius: 10px !important;
     }
     .card {
         max-width: 300px !important;
@@ -143,7 +140,6 @@ h2 {
         margin: auto !important;
         background-color: rgba(255, 255, 255, 0.774) !important;
         margin: 10px!important;
-        border-radius: 10px !important;
     }
 
     .sold{
