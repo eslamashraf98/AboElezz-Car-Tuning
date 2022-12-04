@@ -55,7 +55,11 @@ header {
     background-size: cover;
     margin: auto;
     height: auto;
+<<<<<<< HEAD
     border-radius: 15px !important;
+=======
+    border-radius: 20px !important;
+>>>>>>> 963a5d54c9cfa6eceb51c4a6f5d559ca0778d49b
     margin-top: 30px !important;
     margin-bottom: 15px !important;
 }
@@ -104,11 +108,14 @@ header {
     outline-width: 0px !important;
 }
 
+<<<<<<< HEAD
 .d-block {
     display: block !important;
     border-radius: 5px;
 }
 
+=======
+>>>>>>> 963a5d54c9cfa6eceb51c4a6f5d559ca0778d49b
 .card-body {
     background-color: rgba(255, 255, 255, 0.295);
 }
@@ -117,15 +124,15 @@ header {
     background-color: rgb(250 202 214) !important;
 }
 
+.cars{
+    border-radius: 10px !important;
+}
+
 h2 {
     color: white !important;
     font-size: 25px !important;
     font-weight: 600 !important;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
-}
-
-.cars {
-    width: 85% !important;
 }
     #cards {
         display: flex;
@@ -145,7 +152,6 @@ h2 {
         margin: auto !important;
         background-color: rgba(255, 255, 255, 0.774) !important;
         margin: 10px!important;
-        border-radius: 5px !important;
     }
 
     .sold{
@@ -625,7 +631,7 @@ form::placeholder {
 
     #logo {
         width: 80%;
-        margin: 10px;
+        margin-top: 15px;
     }
 
     #second {
@@ -872,7 +878,7 @@ footer p {
 @media (min-width: 401px) and (max-width: 424px) {
     #logo {
         width: 80%;
-        margin: 10px;
+        margin-top: 15px;
     }
 
     #first {
@@ -1114,7 +1120,7 @@ footer p {
 @media (min-width: 425px) and (max-width: 449px) {
     #logo {
         width: 80%;
-        margin: 10px;
+        margin-top: 15px;
         margin-left: 35px;
         margin-right: 35px;
     }
