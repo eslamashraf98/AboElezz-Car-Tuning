@@ -106,12 +106,12 @@ header {
 
 .card-body {
     background-color: rgba(255, 255, 255, 0.295);
-    border-radius-bottom: 10px !important;
+    border-bottom-radius: 10px !important;
 }
 
 .card-header {
     background-color: rgb(250 202 214) !important;
-    border-radius-top: 10px !important;
+    border-top-radius: 10px !important;
 }
 
 .cars{
