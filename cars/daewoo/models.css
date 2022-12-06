@@ -1,12 +1,12 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+    * {
+        margin: 0;
+        padding: 0;
+    }
 
                 #loader {
-                    border: 12px solid #ff7598;
+                    border: 12px solid #ffe600;
                     border-radius: 50%;
-                    border-top: 12px solid #ffffff;
+                    border-top: 12px solid #0f0f0f;
                     width: 70px;
                     height: 70px;
                     animation: spin 1s linear infinite;
@@ -28,40 +28,37 @@
                     margin: auto;
                 }
 
-body {
-    width: 100vw !important;
-    height: 100vh !important;
-    background: linear-gradient(89deg, #ffd6e0, #ffffff3b);
-    background-size: auto !important;
-}
 
-li{
-    list-style: none !important;
-}
+    body {
+        width: 100vw !important;
+        height: 100vh !important;
+        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU);
+        background-size: 180px;
+    }
 
-#contain {
-    width: 100% !important;
-    text-align: center;
-}
+    #contain {
+        width: 100% !important;
+        text-align: center;
+    }
 
-header {
-    width: 100%;
-    background-color: rgb(250 202 214);
-    text-align: center;
-}
+    header {
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.808);
+        text-align: center;
+    }
 
-#logo {
-    width: 35%;
-    background-size: cover;
-    margin: auto;
-    height: auto;
-    border-radius: 15px !important;
-    margin-top: 30px !important;
-    margin-bottom: 15px !important;
-}
+    #logo {
+        width: 35%;
+        background-size: cover;
+        margin: auto;
+        height: auto;
+        border-radius: 10px;
+        margin-top: 30px !important;
+        margin-bottom: 15px !important;
+    }
 
 .search {
-    margin-top: 15px;
+    margin-top: 30px;
     display: flex !important;
     flex-wrap: nowrap !important;
     justify-content: center !important;
@@ -79,88 +76,108 @@ header {
 #search-button {
     height: 100% !important;
     padding-bottom: 8px;
-    /* background-color: #ffffff88; */
-    background-color: rgba(204, 56, 128, 0.31);
+    background-color: #161616c4;
     border-radius: 0px 5px 5px 0px;
     border: 0px solid rgba(0, 0, 0, 0) !important;
 }
 
-.fa-search{
-    /* color: black; */
-    color: white;
-}
-
-.fa-search:hover {
-    /* color: white; */
-    color: black;
-}
-
 #search-button:hover {
-    background-color: rgb(204, 56, 128);
-    /* background-color: rgba(204, 56, 128, 0.31); */
+    background-color: #000000c0;
 }
 
 .btn-primary {
     outline-width: 0px !important;
 }
 
-.d-block {
-    display: block !important;
-    border-radius: 5px;
-}
-.card-body {
-    background-color: rgba(255, 255, 255, 0.295);
-    border-radius: 10px !important;
-}
-
-.card-header {
-    background-color: rgb(250 202 214) !important;
-    border-top-left-radius: 10px !important;
-    border-top-right-radius: 10px !important;
+#head-title {
+    color: #000000;
+    background-color: #fff200e0 !important;
+    text-align: center;
+    padding: 10px;
+    width: 30%;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 0 0 20px 20px;
 }
 
-.cars{
-    border-radius: 10px !important;
+    h2 {
+        font-size: 30px !important;
+        font-weight: 600 !important;
+        color: white !important;
+    }
+
+    #myinput {
+        /* background-color: #fef102; */
+        max-width: 80% !important;
+        width: 80% !important;
+        outline: 2px solid black !important;
+    }
+
+#search-button {
+    height: 100% !important;
+    padding-bottom: 8px;
+    background-color: #161616c4;
+    border-radius: 0px 5px 5px 0px;
+    border: 0px solid rgba(0, 0, 0, 0) !important;
 }
 
-h2 {
-    color: white !important;
-    font-size: 25px !important;
-    font-weight: 600 !important;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+#search-button:hover {
+    background-color: #000000c0;
+}
+    #search-button:focus{
+        outline: none !important;
+    }
+.card-header{
+    background-color: #00cf11a6 !important;
 }
     #cards {
         display: flex;
         flex-wrap: wrap;
         width: 100%;
-        height: auto ;
         text-align: center;
         justify-content: center;
-        padding-top: 35px !important;
+        padding-bottom: 30px !important;
+        margin-bottom: -10px !important;
     }
-    .card {
-        max-width: 300px !important;
-        width: 250px !important;
-        min-height: 300px !important;
-        max-height: 450px !important;
-        text-align: center !important;
-        margin: auto !important;
-        background-color: rgba(255, 255, 255, 0.774) !important;
-        margin: 10px !important;
+
+    .cars {
+        width: 100% !important;
+        border-radius: 10px;
+    }
+
+    .d-block{
         border-radius: 10px !important;
     }
 
+    .card {
+        max-width: 250px !important;
+        width: 250px !important;
+        max-width: 400px;
+        height: 380px !important;
+        color: rgb(0, 0, 0);
+        text-align: center !important;
+        margin: auto !important;
+        background-color: rgba(255, 255, 255, 0.774) !important;
+        margin: 10px!important;
+        border-radius: 5px !important;
+    }
     .sold{
         width: 100%;
         height: auto;
         margin: auto;
         text-align: center;
-        background-color: rgb(255, 61, 61);
+        background-color: #ff3d3d;
         color: white;
         border-radius: 5px;
         padding: 5px;
         font-weight: 600;
-    }
+        }
+
+    .sold2{
+        background-color: #ff3d3d !important;
+        }
+
     .available{
         width: 100%;
         height: auto;
@@ -172,51 +189,60 @@ h2 {
         padding: 5px;
         font-weight: 600;
     }
+
     .card h2{
         font-size: 18px !important;
         color: rgb(0, 0, 0);
     }
+    .card img:hover {
+        transform: scale(1.07);
+        transition: .5s;
+    }
 
-#myUL {
-    width: 100%;
-    height: auto;
-    padding: 0px !important;
-    display: flex;
-    flex-wrap: nowrap !important;
-    flex-direction: row !important;
-}
+    #myUL {
+        height: auto;
+        padding: 0px !important;
+        background-color: rgba(0, 0, 0, 0.541) !important;
+        list-style-type: none;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#myUL li a {
-    margin-top: -1px;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    color: black;
-    display: block
-}
+    #myUL li a {
+        margin-top: -1px;
+        padding: 12px;
+        text-decoration: none;
+        font-size: 18px;
+        color: rgb(255, 255, 255);
+        display: block
+    }
 
 footer {
-    background-color: rgba(223, 223, 223, 0.932);
+    border-top: 2px solid rgba(255, 193, 7);
+    background-color: rgb(0, 0, 0);
     height: auto !important;
 }
-.footer-icon2{
+
+.footer-icon2 {
     display: none;
 }
-#social3{
+
+#social3 {
     display: none;
 }
-.text-center{
-    border-top: 2px solid rgb(204, 56, 128);
+
+.text-center {
     width: 100%;
     height: auto;
-    padding-top: 100px !important;
+    padding-top: 30px !important;
 }
-.footer-div1{
+
+.footer-div1 {
     width: 150px !important;
     float: left !important;
     margin-top: 35px !important;
 }
-.footer-div2{
+
+.footer-div2 {
     float: right !important;
     width: 60% !important;
     display: flex;
@@ -225,26 +251,31 @@ footer {
     margin-right: 200px;
     margin-top: -70px;
 }
-.footer-div2 h3{
-    color: rgba(68, 68, 68, 0.884);
+
+.footer-div2 h3 {
+    color: rgba(255, 255, 255, 0.753);
     margin-bottom: 10px !important;
     font-size: 22px;
 }
-.footer-div2 a{
-    color: rgb(138, 138, 138);
+
+.footer-div2 a {
+    color: rgba(138, 138, 138, 0.938);
     line-height: 25px !important;
     text-align: start !important;
 }
+
 .footer-div2 a:hover {
-    color: rgb(204, 56, 128);
+    color: rgba(254, 241, 2, 0.849);
 }
-.footer-icon{
+
+.footer-icon {
     float: left;
     width: 150px !important;
     margin-left: 90px;
     margin-top: 5px;
     border-radius: 10px !important;
 }
+
 #social2 {
     display: flex;
     flex-wrap: wrap;
@@ -253,24 +284,28 @@ footer {
     margin-left: 95px !important;
     justify-content: space-between !important;
 }
-.footer-social{
+
+.footer-social {
     float: left;
     margin-left: 75px !important;
     border-radius: 10px !important;
 }
+
 footer p {
     font-size: 15px;
-    color: rgba(94, 94, 94, 0.726) !important;
+    color: rgba(199, 199, 199, 0.849) !important;
     font-weight: bolder;
     margin-top: 50px;
 }
 
 #dropdown {
-    background-color: rgb(250 202 214);    width: 100%;
+    background-color: rgba(0, 0, 0, 0.808);
+    width: 100%;
     height: 100px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center !important;
+    border-bottom: 2px solid #fef102e0;
 }
 
 .dropdown {
@@ -300,7 +335,7 @@ footer p {
 .btn-secondary::after {
     display: block;
     content: '';
-    border-bottom: 2px solid rgb(204, 56, 128);
+    border-bottom: 2px solid #fef102e0;
     transition: transform 250ms ease-in-out;
     transform: scaleX(0);
 }
@@ -309,138 +344,117 @@ footer p {
     transform: scaleX(1);
     transform-origin: 0% 100%;
 }
-#woman {
-    background-color: rgba(0, 0, 0, 0) !important;
-    border: 0px solid black !important;
-    font-size: 25px !important;
-    color: white;
-    margin-top: 33px;
-    margin-right: 25px;
-    margin-left: 30px;
-    display: none;
-}
 
-#woman:hover {
-    color: white !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-    border: 0px solid black !important;
-    border-bottom: 2px solid rgb(204, 56, 128) !important;
-    transition: .2s all;
-}
+    header ul {
+        display: flex;
+        justify-content: center;
+        text-align: center !important;
+        width: 50%;
+        margin: auto;
+        list-style-type: none;
+        margin-top: -80px;
+    }
 
-#woman:focus {
-    color: white !important;
-    background-color: rgba(0, 0, 0, 0) !important;
-    border-bottom: 2px solid #fef102e0 !important;
-    outline: 10px white !important;
-}
+    .nav-item {
+        text-align: start !important;
+        margin: auto !important;
+        left: 50%;
+    }
 
-header ul {
-    display: flex;
-    justify-content: center;
-    text-align: center !important;
-    width: 50%;
-    margin: auto;
-    list-style-type: none;
-    margin-top: -80px;
-}
+    .nav-item a {
+        color: black !important;
+        font-family: sans-serif;
+        text-align: center !important;
+        margin: auto;
+    }
 
-.nav-item {
-    text-align: start !important;
-    margin: auto !important;
-    left: 50%;
-}
+    .nav-link {
+        background-color: transparent !important;
+        width: 100% !important;
+    }
 
-.nav-item a {
-    color: black !important;
-    font-family: sans-serif;
-    text-align: center !important;
-    margin: auto;
-}
+    .nav-item a:hover {
+        color: #000000 !important;
+        transition: .5s all;
+    }
 
-.nav-link {
-    background-color: transparent !important;
-    width: 100% !important;
-}
+    .dropdown-menu {
+        background-color: #222222d8 !important;
+        color: white !important;
+        width: 100%;
+    }
 
-.nav-item a:hover {
-    color: #000000 !important;
-    transition: .5s all;
-}
+    .dropdown-item {
+        color: white !important;
+        background-color: #55555515 !important;
+        font-size: 15px;
+    }
 
-.dropdown-menu {
-    background-color: rgb(255, 255, 255) !important;
-    width: 100%;
-}
+    .dropdown-item:hover {
+        background-color: black !important;
+        transition: .5s all;
+    }
 
-.dropdown-item {
-    color: rgb(204, 56, 128) !important;
-    font-size: 15px;
-}
+    @media (max-width: 700px) {
+        #logo {
+            width: 70%;
+        }
+    }
 
-.dropdown-item:hover {
-    color: white !important;
-    background-color: rgb(236, 123, 178) !important;
-    transition: .5s all;
-}
+    .navbar-light {
+        width: 100% !important;
+        background-color: white;
+    }
 
-.btn-light {
-    margin-top: 30px !important;
-    margin: 5px;
-    color: rgb(156, 32, 57) !important;
-    width: 120px !important;
-    margin-bottom: 20px !important;
-    font-weight: 500 !important;
-    font-size: 18px !important;
-    font-family: Arial, Helvetica, sans-serif !important;
-}
+    .navbar a {
+        margin-left: 20px;
+    }
 
-.btn-light:focus {
-    outline: none !important;
-}
-
-.btn-light:hover {
-    background-color: rgba(204, 56, 128, 0.31) !important;
-    color: white !important;
-    outline: none !important;
-    border: 0px solid white !important;
-}
-
-.input-group {
-    caret-color: rgb(180, 102, 102);
-}
-
-.main{
-    height: auto;
-}
-
+    .btn-dark {
+        margin-top: 30px !important;
+        margin: 5px;
+        width: 120px !important;
+        font-weight: 500 !important;
+        font-size: 18px !important;
+        font-family: Arial, Helvetica, sans-serif !important;
+    }
+    .btn-dark:focus{
+        outline: none !important;
+    }
+    .btn-dark:hover {
+        background-color: #fef102e0 !important;
+        transition: .3s;
+    }
+        .input-group {
+            caret-color: #ece100;
+        }
 #about {
-    border-top: 2px solid rgb(204, 56, 128);
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
     position: relative;
     height: 100%;
     width: 100%;
-    background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
+    background: linear-gradient(171deg, #dbdbd9, #dab542);
+    border-top: 2px solid rgba(255, 193, 7);
 }
 
 #about .title {
     position: absolute;
     font-size: 100px !important;
-    color: rgb(230, 195, 195);
+    color: #dab442;
     font-weight: 700;
     top: 15px !important;
+    opacity: .5;
     text-align: center !important;
     width: 50%;
-    margin-right: 150px !important;
     margin: auto;
-    opacity: .5;
-    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.37);
+    margin-right: 200px;
+    -webkit-text-stroke: 0.5px rgba(0, 0, 0, 0.603);
 }
 
 .text {
+    float: left !important;
     width: 40%;
 }
 
@@ -449,29 +463,30 @@ header ul {
     font-family: sans-serif !important;
     color: rgb(65, 65, 65) !important;
     margin-left: 30px;
-    margin-top: 50px;
+    margin-top: 30px;
+    font-size: 25px;
 }
 
 .text p {
     font-size: 22px;
     font-family: sans-serif !important;
-    color: rgb(0, 0, 0);
-    margin: 30px;
+    color: rgba(0, 0, 0, 0.856);
+    margin: 20px;
     text-align: justify;
 }
 
 #about .img {
-    background-image: url(carw.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    float: right !important;
     width: 60%;
+    overflow: visible;
 }
+
 #contact {
     width: 100% !important;
-    height: 1128px;
-    background-image: url(map.jpg);
-    background-size: contain;
-    border-top: 2px solid rgb(204, 56, 128);
+    height: 1118px;
+    background-image: url(https://w0.peakpx.com/wallpaper/416/42/HD-wallpaper-abstract-black-yellow-backgrounds-flat-lines-minimal-modern-simple.jpg);
+    background-size: cover;
+    border-top: 2px solid rgba(255, 193, 7);
 
 }
 
@@ -479,8 +494,8 @@ header ul {
     text-align: center;
     font-weight: 700;
     font-size: 80px;
-    color: rgb(232 174 163);
-    opacity: .7;
+    color: #fff200;
+    -webkit-text-stroke: 1px #000;
 }
 
 #info {
@@ -492,8 +507,11 @@ header ul {
 }
 
 #info p {
-    color: #505050 !important;
-    font-size: 18px;
+    color: rgba(255, 255, 255, 0.644) !important;
+}
+
+.backg {
+    width: 75%;
 }
 
 #social {
@@ -505,21 +523,9 @@ header ul {
 
 .social {
     font-size: 25px;
-    margin-right: 15px !important;
-    color: #505050 !important;
+    margin-right: 15px;
+    color: #94949491 !important;
     cursor: pointer;
-}
-
-.fa-whatsapp {
-    margin: auto;
-}
-
-.fa-facebook {
-    margin: auto;
-}
-
-.fa-instagram {
-    margin: auto;
 }
 
 .fa-whatsapp:hover {
@@ -545,9 +551,9 @@ header ul {
     margin-top: 100px !important;
     margin: auto;
     text-align: center;
-    border-top: 3px solid rgb(232 174 163);
-    border-left:3px solid rgb(232 174 163);
-    border-right: 3px solid rgb(232 174 163);
+    border-top: 3px solid #fff200;
+    border-left: 3px solid #fff200;
+    border-right: 3px solid #fff200;
 }
 
 #googlemap iframe {
@@ -556,7 +562,7 @@ header ul {
 }
 
 .my-form {
-    color: rgb(0, 0, 0) !important;
+    color: rgba(255, 255, 255, 0.945);
     font-weight: lighter !important;
     font-size: 18px !important;
 }
@@ -566,24 +572,24 @@ header ul {
 }
 
 .my-form .btn-default {
-    background-color: rgb(255, 255, 255);
-    color: rgb(232 174 163);
+    background-color: #000;
+    color: #fff200dc;
     border: 0px;
-    border: 1px solid rgb(232 174 163);
+    border: 1px solid #ffffff;
     border-radius: 5px;
     margin-left: 68px !important;
 }
 
 .my-form .btn-default:hover {
-    background-color: rgb(232 174 163);
+    background-color: #fff200;
     border: 1px solid #fff;
-    color: rgb(255, 255, 255);
+    color: #000;
 }
 
 .form-group {
     width: 80%;
     margin: auto;
-    color: rgb(255, 255, 255) !important;
+    color: white !important;
 }
 
 form::placeholder {
@@ -592,10 +598,10 @@ form::placeholder {
 
 .my-form .form-control {
     border-radius: 5px;
-    color: black !important;
-    caret-color: rgb(232 174 163);
-    border: 2px double rgb(232 174 163)!important;
-    background-color: rgba(255, 255, 255, 0.692) !important;
+    color: white !important;
+    caret-color: #fff200;
+    border: 2px double #fff200a9 !important;
+    background-color: rgba(0, 0, 0, 0.692) !important;
 }
 
 #form-message {
@@ -611,10 +617,10 @@ form::placeholder {
     right: 0;
     width: 40px;
     margin: 35px;
-    background-color: rgb(222 182 176);
+    background-color: rgba(255, 230, 0, 0.781);
     transition: .5s all;
     border-radius: 25%;
-    border: 2px solid whitesmoke;
+    border: 2px solid black;
 }
 
 .uppage:hover {
@@ -622,12 +628,10 @@ form::placeholder {
     opacity: 1 !important;
     transition: .5s all;
 }
-
 @media (max-width: 400px) {
-
     #logo {
         width: 80%;
-        margin-top: 15px;
+        margin: 10px;
     }
 
     #second {
@@ -636,36 +640,31 @@ form::placeholder {
 
     #first {
         display: block !important;
-        margin-bottom: 0px;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 40px !important;
+        margin: 20px;
     }
 
     .search {
         width: 50% !important;
-        bottom: 38px;
+        bottom: 20px;
         left: 35px;
     }
-
-    #navMenu {
-        top: -63px;
-    }
-
-.navbar-collapse.in {
-    margin-top: -40px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
-    .btn-light {
+    .btn-dark {
         width: 100px !important;
-        color: #b31a72;
-        font-size: 14px !important;
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
     }
+
+#head-title {
+    width: 70%;
+    font-size: 18px;
+}
 
     .input-group .btn {
         display: none;
@@ -691,14 +690,6 @@ form::placeholder {
         font-size: 18px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 18px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -55px;
-    }
 
     #navMenu > span {
         display: block;
@@ -747,74 +738,80 @@ form::placeholder {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 60px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 270px !important;
+        margin-top: 250px !important;
     }
-
+    .text h2{
+        margin-left: 21px;
+        margin-top: 34px;
+        font-size: 25px;
+        margin-bottom: -10px;
+    }
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 280px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1500px;
+        background-size: 400px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
-#submit {
-    text-align: center !important;
-}
+    .backg {
+        width: 75% !important;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 350px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-footer #cars{
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
+
+    #submit {
+        text-align: center !important;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
+footer #cars {
     width: 50% !important;
     margin: auto !important;
 }
@@ -824,6 +821,7 @@ footer #cars{
     font-size: 20px !important;
 
 }
+
 .footer-div2 {
     width: 100% !important;
     display: flex;
@@ -871,15 +869,17 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 401px) and (max-width: 424px) {
     #logo {
         width: 80%;
-        margin-top: 15px;
+        margin: 10px;
     }
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -888,54 +888,24 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
-    }
-
-    .dropdown {
-        display: flex;
-        text-align: start !important;
-        justify-content: start !important;
-        margin-bottom: 10px !important;
-    }
-
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 18px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -55px;
-    }
-
-    .btn-secondary {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        outline: none !important;
-        font-size: 18px !important;
+        margin-top: 40px !important;
+        margin: 20px;
     }
 
     .search {
         width: 50% !important;
-        bottom: 38px;
-        left: 30px;
+        bottom: 20px;
+        left: 35px;
     }
-
-    #navMenu {
-        top: -15px;
-    }
-
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
-    .btn-light {
+    .btn-dark {
         width: 100px !important;
         font-size: 15px !important;
-        margin-bottom: 20px !important;
+        margin-bottom: 10px !important;
     }
-
+#head-title {
+    width: 70%;
+    font-size: 20px;
+}
     .input-group .btn {
         display: none;
     }
@@ -946,6 +916,25 @@ footer p {
         margin: auto !important;
     }
 
+    .btn-dark {
+        width: 100px !important;
+        font-size: 15px !important;
+    }
+
+    .dropdown {
+        display: flex;
+        text-align: start !important;
+        justify-content: start !important;
+        margin-bottom: 10px !important;
+    }
+
+    .btn-secondary {
+        background-color: rgba(0, 0, 0, 0) !important;
+        border: 0px solid black !important;
+        outline: none !important;
+        font-size: 18px !important;
+    }
+
     #navMenu > span {
         display: block;
         width: 28px;
@@ -993,14 +982,15 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 60px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
@@ -1009,63 +999,57 @@ footer p {
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 300px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1500px;
+        background-size: 450px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 350px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
-.footer-div2 a {
-    color: rgb(165, 165, 165);
-    line-height: 35px !important;
-    font-size: 20px !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
 
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 {
     width: 100% !important;
     display: flex;
@@ -1113,17 +1097,19 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 425px) and (max-width: 449px) {
     #logo {
         width: 80%;
-        margin-top: 15px;
+        margin: 10px;
         margin-left: 35px;
         margin-right: 35px;
     }
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1132,8 +1118,37 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 40px !important;
+        margin: 20px;
+    }
+
+    .search {
+        width: 50% !important;
+        bottom: 20px;
+        left: 35px;
+    }
+    .btn-dark {
+        width: 100px !important;
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+    }
+#head-title {
+    width: 70%;
+    font-size: 22px;
+}
+    .input-group .btn {
+        display: none;
+    }
+
+    .input-group .form-control {
+        width: 150% !important;
+        border-radius: 5px !important;
+        margin: auto !important;
+    }
+
+    .btn-dark {
+        width: 100px !important;
+        font-size: 15px !important;
     }
 
     .dropdown {
@@ -1143,44 +1158,12 @@ footer p {
         margin-bottom: 10px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 20px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -65px;
-    }
-
     .btn-secondary {
         background-color: rgba(0, 0, 0, 0) !important;
         border: 0px solid black !important;
         outline: none !important;
         font-size: 20px !important;
     }
-
-    .search {
-        width: 50% !important;
-        bottom: 38px;
-        left: 35px;
-    }
-
-    .btn-light {
-        width: 100px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
-    }
-
-    #navMenu {
-        right: 10px;
-        top: -15px;
-    }
-
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -1239,73 +1222,74 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 60px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 300px !important;
+        margin-top: 280px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 320px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1500px;
+        background-size: 480px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 350px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 a {
     color: rgb(165, 165, 165);
     line-height: 35px !important;
@@ -1359,6 +1343,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 450px) and (max-width: 474px) {
     #logo {
         width: 80%;
@@ -1369,7 +1354,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1378,8 +1364,32 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 40px !important;
+        margin: 20px;
+    }
+
+    .search {
+        width: 50% !important;
+        bottom: 20px;
+        left: 35px;
+    }
+    .btn-dark {
+        width: 100px !important;
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+    }
+#head-title {
+    width: 70%;
+    font-size: 25px;
+}
+    .input-group .btn {
+        display: none;
+    }
+
+    .input-group .form-control {
+        width: 150% !important;
+        border-radius: 5px !important;
+        margin: auto !important;
     }
 
     .dropdown {
@@ -1396,38 +1406,9 @@ footer p {
         font-size: 22px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 22px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -75px;
-    }
-
-    .search {
-        width: 50% !important;
-        bottom: 38px;
-        left: 35px;
-    }
-
-    .btn-light {
-        width: 100px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
-    }
-
     #navMenu {
         right: 10px;
-        top: -15px;
     }
-
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
-
     .input-group .btn {
         display: none;
     }
@@ -1485,73 +1466,74 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 60px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 330px !important;
+        margin-top: 290px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 350px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1500px;
+        background-size: 480px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 350px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 a {
     line-height: 35px !important;
     font-size: 20px !important;
@@ -1604,6 +1586,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 475px) and (max-width: 499px) {
     #logo {
         width: 80%;
@@ -1614,7 +1597,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1623,8 +1607,32 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 40px !important;
+        margin: 20px;
+    }
+
+    .search {
+        width: 50% !important;
+        bottom: 20px;
+        left: 35px;
+    }
+    .btn-dark {
+        width: 100px !important;
+        font-size: 15px !important;
+        margin-bottom: 10px !important;
+    }
+#head-title {
+    width: 70%;
+    font-size: 25px;
+}
+    .input-group .btn {
+        display: none;
+    }
+
+    .input-group .form-control {
+        width: 150% !important;
+        border-radius: 5px !important;
+        margin: auto !important;
     }
 
     .dropdown {
@@ -1641,37 +1649,9 @@ footer p {
         font-size: 22px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 22px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -75px;
-    }
-
-    .search {
-        width: 50% !important;
-        bottom: 38px;
-        left: 40px;
-    }
-
-    .btn-light {
-        width: 100px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
-    }
-
     #navMenu {
         right: 10px;
-        top: -15px;
     }
-
-.navbar-collapse.in {
-    margin-top: -60px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -1730,75 +1710,75 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 60px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 380px !important;
+        margin-top: 330px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 380px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1600px;
+        background-size: 500px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-    font-size: 18px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 60px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+        font-size: 18px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 350px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
 
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 a {
     line-height: 35px !important;
     font-size: 20px !important;
@@ -1851,6 +1831,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 500px) and (max-width: 524px) {
     #logo {
         width: 80%;
@@ -1861,7 +1842,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -1870,8 +1852,32 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 20px !important;
+        margin: 20px;
+    }
+
+    .search {
+        width: 50% !important;
+        bottom: 20px;
+        left: 35px;
+    }
+    .btn-dark {
+        width: 140px !important;
+        font-size: 20px !important;
+        margin-bottom: 30px !important;
+    }
+#head-title {
+    width: 70%;
+    font-size: 25px;
+}
+    .input-group .btn {
+        display: none;
+    }
+
+    .input-group .form-control {
+        width: 150% !important;
+        border-radius: 5px !important;
+        margin: auto !important;
     }
 
     .dropdown {
@@ -1888,37 +1894,16 @@ footer p {
         font-size: 23px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 23px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -80px;
-    }
-
     .search {
         width: 50% !important;
         bottom: 38px;
         left: 50px;
     }
 
-    .btn-light {
-        width: 100px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
-    }
-
     #navMenu {
-        right: 20px;
-        top: -15px;
+        right: 15px;
+        top: -20px;
     }
-
-.navbar-collapse.in {
-    margin-top: -70px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -1977,75 +1962,75 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
-        font-size: 60px !important;
+        font-size: 65px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 380px !important;
+        margin-top: 330px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 380px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1650px;
+        background-size: 550px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-    font-size: 20px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 70px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+        font-size: 18px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 400px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
 
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 a {
     line-height: 35px !important;
     font-size: 20px !important;
@@ -2098,6 +2083,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 525px) and (max-width: 560px) {
     #logo {
         width: 80%;
@@ -2108,7 +2094,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2117,8 +2104,8 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 20px !important;
+        margin: 20px;
     }
 
     .dropdown {
@@ -2135,37 +2122,26 @@ footer p {
         font-size: 25px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 25px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -85px;
-    }
-
     .search {
         width: 50% !important;
         bottom: 38px;
         left: 50px;
     }
 
-    .btn-light {
-        width: 100px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
+    .btn-dark {
+        width: 130px !important;
+        font-size: 20px !important;
+        margin-bottom: 30px !important;
     }
-
+#head-title {
+    width: 70%;
+    font-size: 27px;
+}
     #navMenu {
         right: 30px;
-        top: -15px;
+        top: -20px;
     }
 
-.navbar-collapse.in {
-    margin-top: -70px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
     .input-group .btn {
         display: none;
     }
@@ -2223,81 +2199,83 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 70px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 400px !important;
+        margin-top: 350px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 400px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1700px;
+        background-size: 570px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-    font-size: 20px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 70px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+        font-size: 18px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 400px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
-footer #cars {
-    width: 40% !important;
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 a {
     line-height: 35px !important;
     font-size: 20px !important;
+}
+
+footer #cars {
+    width: 40% !important;
+    margin: auto !important;
 }
 
 .footer-div2 {
@@ -2348,6 +2326,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 561px) and (max-width: 600px) {
     #logo {
         width: 80%;
@@ -2358,7 +2337,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2367,8 +2347,8 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 15px !important;
+        margin: 20px;
     }
 
     .dropdown {
@@ -2385,37 +2365,25 @@ footer p {
         font-size: 25px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 25px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -85px;
-    }
-
     .search {
         width: 50% !important;
         bottom: 38px;
         left: 50px;
     }
 
-    .btn-light {
-        width: 100px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
+    .btn-dark {
+        width: 140px !important;
+        font-size: 20px !important;
+        margin-bottom: 35px !important;
     }
-
+#head-title {
+    width: 70%;
+    font-size: 30px;
+}
     #navMenu {
         right: 30px;
-        top: -15px;
+        top: -20px;
     }
-
-.navbar-collapse.in {
-    margin-top: -70px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -2474,78 +2442,80 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
         font-size: 70px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 430px !important;
+        margin-top: 370px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 430px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1550px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 60px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1700px;
+        background-size: 620px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-    font-size: 22px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 70px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+        font-size: 20px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 450px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 footer #cars {
     width: 40% !important;
     margin: auto !important;
 }
+
 .footer-div2 a {
     line-height: 30px !important;
     font-size: 20px !important;
@@ -2599,6 +2569,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 601px) and (max-width: 650px) {
     #logo {
         width: 80%;
@@ -2609,7 +2580,8 @@ footer p {
 
     #first {
         display: block !important;
-        background-color: rgb(250 202 214) !important;
+        background-color: rgba(0, 0, 0, 0.808);
+        border-bottom: 2px solid #fef102e0;
     }
 
     #second {
@@ -2618,8 +2590,8 @@ footer p {
 
     #searchNav {
         text-align: start !important;
-        margin-top: 50px !important;
-        margin: 15px;
+        margin-top: 10px !important;
+        margin: 20px;
     }
 
     .dropdown {
@@ -2636,41 +2608,26 @@ footer p {
         font-size: 25px !important;
     }
 
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 25px !important;
-        color: white;
-        margin-top: 7px;
-        margin-left: -90px;
-    }
-
     .search {
         width: 50% !important;
         bottom: 38px;
-        left: 75px;
+        left: 70px;
     }
 
-    .btn-light {
-        width: 120px !important;
-        font-size: 15px !important;
-        margin-bottom: 20px !important;
+    .btn-dark {
+        width: 140px !important;
+        font-size: 20px !important;
+        margin-bottom: 40px !important;
     }
-
+#head-title {
+    width: 60%;
+    font-size: 30px;
+}
     #navMenu {
-        right: 30px;
-        top: -15px;
+        right: 40px;
+        top: -20px;
     }
 
-.navbar-collapse.in {
-    margin-top: -70px;
-    margin-bottom: 50px;
-    transition: .2s;
-}
-
-.navbar-collapse.in {
-    margin-top: -40px;
-}
     .input-group .btn {
         display: none;
     }
@@ -2720,6 +2677,7 @@ footer p {
     #navMenu.active > span:nth-child(3) {
         transform: translateY(-9px) rotate(90deg);
     }
+
     #about {
         display: flex;
         flex-direction: column;
@@ -2727,83 +2685,87 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
-        font-size: 70px !important;
+        font-size: 75px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 460px !important;
+        margin-top: 420px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 460px;
-        display: block;
         position: absolute;
     }
-#contact {
-    height: 1650px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 70px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1750px;
+        background-size: 670px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
-#info h2 {
-    font-size: 30px !important;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 70px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#info p {
-    font-size: 22px;
-}
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info {
+        margin: 0px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .backg {
+        width: 73%;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #info h2 {
+        font-size: 30px !important;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    #info p {
+        font-size: 22px;
+    }
+
+    #googlemap {
+        width: 90vw;
+        height: 450px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
+
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 18px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 footer #cars {
     width: 35% !important;
     margin: auto !important;
 }
+
 .footer-div2 a {
     line-height: 30px !important;
     font-size: 20px !important;
@@ -2857,6 +2819,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 651px) and (max-width: 800px) {
     #logo {
         width: 60%;
@@ -2869,20 +2832,14 @@ footer p {
         padding-bottom: 20px;
     }
 
-    .btn-light {
+    .btn-dark {
         width: 110px !important;
         font-size: 15px !important;
     }
-
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 25px !important;
-        color: white;
-        margin-top: 7px;
-        margin-right: 100px;
-    }
-
+#head-title {
+    width: 60%;
+    font-size: 30px;
+}
     #about {
         display: flex;
         flex-direction: column;
@@ -2890,88 +2847,90 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
-        font-size: 70px !important;
+        font-size: 75px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 530px !important;
+        margin-top: 520px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 550px;
-        display: block;
         position: absolute;
     }
 
-.col-md-6 {
-    width: 100% !important;
-}
+    .col-md-6 {
+        width: 100% !important;
+    }
 
-#contact {
-    height: 1650px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
+    #contact {
+        height: 1750px;
+        background-size: 770px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 70px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 70px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#info {
-    margin: 0px;
-}
+    #info {
+        margin: 0px;
+    }
 
-#info h2 {
-    font-size: 35px !important;
-}
+    .backg {
+        width: 68% !important;
+    }
 
-#info p {
-    font-size: 25px;
-}
-.social {
-    font-size: 30px;
-}
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info h2 {
+        font-size: 30px !important;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    #info p {
+        font-size: 22px;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    .social {
+        font-size: 30px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 450px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
+
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 22px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+    }
 .footer-div2 a {
     line-height: 30px !important;
     font-size: 20px !important;
@@ -3013,13 +2972,16 @@ footer p {
     margin-top: -50px !important;
     margin-left: 0px !important;
 }
+
 .footer-div2 h3 {
     font-size: 30px;
 }
+
 .footer-div2 a {
     font-size: 22px !important;
     line-height: 35px !important;
 }
+
 #social3 .social {
     margin: auto !important;
     margin: 20px !important;
@@ -3031,6 +2993,7 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 801px) and (max-width: 910px) {
     #logo {
         width: 60%;
@@ -3043,20 +3006,14 @@ footer p {
         padding-bottom: 20px;
     }
 
-    .btn-light {
+    .btn-dark {
         width: 110px !important;
         font-size: 15px !important;
     }
-
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 25px !important;
-        color: white;
-        margin-top: 7px;
-        margin-right: 200px;
-    }
-
+#head-title {
+    width: 50%;
+    font-size: 30px;
+}
     #about {
         display: flex;
         flex-direction: column;
@@ -3064,89 +3021,92 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
-        font-size: 70px !important;
+        font-size: 80px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 620px !important;
+        margin-top: 590px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 630px;
-        display: block;
         position: absolute;
     }
-.col-md-6 {
-    width: 100% !important;
-}
 
-#contact {
-    height: 1650px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
+    .col-md-6 {
+        width: 100% !important;
+    }
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 70px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 1850px;
+        background-size: 900px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 80px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#info h2 {
-    font-size: 40px !important;
-}
+    #info {
+        margin: 10px;
+    }
 
-#info p {
-    font-size: 30px;
-}
+    .backg {
+        width: 70% !important;
+    }
 
-.social {
-    font-size: 30px;
-}
+    #info h2 {
+        font-size: 35px !important;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info p {
+        font-size: 25px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .social {
+        font-size: 35px;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 450px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 22px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+        width: 20%;
+        font-size: 20px;
+    }
 .footer-div2 a {
     line-height: 30px !important;
     font-size: 20px !important;
@@ -3209,29 +3169,15 @@ footer p {
     margin-top: -20px;
 }
 }
-@media (min-width: 911px) and (max-width: 1040px) {
-    #about {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        position: relative;
-        height: auto;
-        width: 100%;
-        background: linear-gradient(171deg, #cfd3dc, #3e445a);
-    }
 
+@media (min-width: 911px) and (max-width: 1040px) {
     .input-group .form-control {
         margin-bottom: 20px !important;
     }
-
-    #woman {
-        background-color: rgba(0, 0, 0, 0) !important;
-        border: 0px solid black !important;
-        font-size: 25px !important;
-        color: white;
-        margin-top: 0px;
-    }
-
+#head-title {
+    width: 50%;
+    font-size: 30px;
+}
     #about {
         display: flex;
         flex-direction: column;
@@ -3239,89 +3185,93 @@ footer p {
         position: relative;
         height: auto;
         width: 100%;
-        background: linear-gradient(171deg, #ffffff,
-        rgb(230, 171, 171));
-        }
+    }
 
     #about .title {
-        font-size: 70px !important;
+        font-size: 85px !important;
+        overflow: auto;
         width: 100%;
         display: block;
+        opacity: 0.5;
+        text-shadow: 0px 0px 0px !important;
     }
 
     .text {
         width: 100%;
-        margin-top: 700px !important;
+        margin-top: 670px !important;
     }
 
     #about .img {
-        background-image: url(carw.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
         width: 100%;
-        height: 720px;
-        display: block;
         position: absolute;
     }
-.col-md-6 {
-    width: 100% !important;
-}
 
-#contact {
-    height: 1650px;
-    background-size: auto;
-    background-image: url(map2.jpg);
-}
+    .col-md-6 {
+        width: 100% !important;
+    }
 
-#contact h1 {
-    text-align: center;
-    font-weight: 700;
-    font-size: 70px;
-    color: rgb(230, 171, 171);
-    opacity: .7;
-    -webkit-text-stroke: 1px #fff;
-}
+    #contact {
+        height: 2000px;
+        background-size: 950px;
+        border-top: 2px solid rgba(255, 193, 7);
+    }
 
-#info {
-    margin: 0px;
-}
+    #contact h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 85px;
+        color: #fff200;
+        opacity: 1;
+        -webkit-text-stroke: 1px #000;
+    }
 
-#info h2 {
-    font-size: 35px !important;
-}
+    #info {
+        margin: 15px;
+    }
 
-#info p {
-    font-size: 25px;
-}
+    .backg {
+        width: 75% !important;
+    }
 
-.social {
-    font-size: 30px;
-}
+    #info h2 {
+        font-size: 30px !important;
+    }
 
-#googlemap {
-    width: 90vw;
-    height: 350px;
-    color: #fff;
-    margin-top: 100px !important;
-    margin: auto;
-    text-align: center;
-    border: 3px solid rgb(230, 171, 171);
-    margin-bottom: 50px;
-}
+    #info p {
+        font-size: 25px;
+    }
 
-.my-form {
-    color: rgba(255, 255, 255, 0.945);
-    font-weight: lighter !important;
-    font-size: 18px !important;
-}
+    .social {
+        font-size: 30px;
+    }
 
-#submit {
-    text-align: center !important;
-}
+    #googlemap {
+        width: 90vw;
+        height: 450px;
+        color: #fff;
+        margin-top: 100px !important;
+        margin: auto;
+        text-align: center;
+        border: 3px solid #fff200;
+        margin-bottom: 50px;
+    }
 
-.my-form .btn-default {
-    margin: auto !important;
-}
+    .my-form {
+        color: rgba(255, 255, 255, 0.945);
+        font-weight: lighter !important;
+        font-size: 25px !important;
+    }
+
+    #submit {
+        text-align: center;
+    }
+
+    .my-form .btn-default {
+        margin: auto !important;
+        width: 20%;
+        font-size: 25px;
+        margin-top: 10px !important;
+    }
 .footer-div2 a {
     line-height: 30px !important;
     font-size: 20px !important;
@@ -3384,9 +3334,14 @@ footer p {
     margin-top: -20px;
 }
 }
+
 @media (min-width: 1041px) and (max-width: 1290px) {
-#contact {
-    height: 1180px;
+    #contact{
+        height: 1100px;
+    }
+    #head-title {
+    width: 50%;
+    font-size: 30px;
 }
 .footer-div2 a {
     line-height: 30px !important;

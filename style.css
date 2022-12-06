@@ -192,7 +192,7 @@ section{
     height: auto;
     width: 100%;
     margin-top: 25px;
-    background-color: rgba(221, 220, 220, 0.863);
+    background-color: #0000009c;
     margin-bottom: -15px !important;
     margin-top: 0px !important;
     border-top: 2px solid rgba(255, 193, 7)
@@ -212,11 +212,11 @@ section{
     font-size: 40px !important;
     font-weight: 600 !important;
     font-family: sans-serif !important;
-    color: rgb(43, 43, 43) !important;
+    color: #f0f0f0d5 !important;
     border-radius: 10px;
     margin-bottom: -150px;
     margin-top: 10px;
-    text-shadow: 5px 5px 5px #444;
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
     text-decoration: underline;
 }
 .others-section{
