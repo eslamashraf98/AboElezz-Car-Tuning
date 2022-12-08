@@ -102,7 +102,30 @@
     font-weight: 600;
     border-radius: 0 0 20px 20px;
 }
+#backArrow {
+    width: 30px;
+    float: left;
+    line-height: 50px !important;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 
+#title {
+    background-color: #fff200e0;
+    height: 50px !important;
+    width: 200px;
+    border-bottom-right-radius: 20px;
+    line-height: 50px !important;
+    margin-top: -20px;
+    color: #000;
+    font-weight: 600;
+}
+
+#title h3 {
+    line-height: 50px;
+    float: right;
+}
     h2 {
         font-size: 25px;
     }
