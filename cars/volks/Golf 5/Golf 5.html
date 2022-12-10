@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AboElezz-Car-Tuning-ŠKODA</title>
+    <title>AboElezz-Car-Tuning-VOLKS</title>
     <link rel="icon" href="abo.png">
-    <link rel="stylesheet" href="/AboElezz-Car-Tuning/cars/cars.css">
+    <link rel="stylesheet" href="/AboElezz-Car-Tuning/cars/models.css">
+    <link rel="stylesheet" href="/AboElezz-Car-Tuning/cars/bmw/models.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
@@ -19,8 +20,8 @@
 
 <body>
 
-    <!-- Loader -->
-    <div id="loader" class="center"></div>
+<!-- Loader -->
+<div id="loader" class="center"></div>
 
     <header id="first" style="display: none;">
         <a href="#"> <img id="logo" src="abo1.png" alt="logo"></a>
@@ -28,61 +29,7 @@
         <a href="/AboElezz-Car-Tuning/index.html"> <button class="btn btn-dark">HOME</button></a>
         <a href="/AboElezz-Car-Tuning/about.html"> <button class="btn btn-dark">ABOUT US</button></a>
         <a href="/AboElezz-Car-Tuning/contact.html"> <button class="btn btn-dark">CONTACT</button></a>
-        <br>
-        <div id="navMenu" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-
-            <span></span>
-            <span></span>
-            <span></span>
-        </div>
-
-
-        <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav justify-content-center navbar-nav">
-                <div id="searchNav">
-
-                    <li class="nav-item">
-                        <a href="/AboElezz-Car-Tuning/interior.html"><button class="btn btn-secondary" type="button"
-                                id="dropdownMenu2">
-                                Interior
-                            </button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/AboElezz-Car-Tuning/exterior.html"><button class="btn btn-secondary" type="button"
-                                id="dropdownMenu2">
-                                Exterior
-                            </button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/AboElezz-Car-Tuning/accessories.html"><button class="btn btn-secondary" type="button"
-                                id="dropdownMenu2">
-                                Accessories
-                            </button></a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="/AboElezz-Car-Tuning/cleaning-products.html"><button class="btn btn-secondary"
-                                type="button" id="dropdownMenu2">
-                                Cleaning Products
-                            </button></a>
-                    </li>
-
-            </ul>
-        </div>
-        </div>
-        </nav>
-        </div>
-
-        <div id="search-box" class="input-group search" onclick="vis()">
-            <div class="form-outline">
-                <input id="myInput" type="text" onkeyup="myFunction()" class="form-control"
-                    placeholder="Type to Search" />
-                <label class="form-label" for="myInput"></label>
-            </div>
-            <button id="search-button" onclick="myFunction()" type="button" class="btn btn-primary">
-                <i class="fas fa-search"></i>
-            </button>
-            </ul>
-            <br>
+        <br> <br> <br>
 
     </header>
 
@@ -99,118 +46,69 @@
             <a href="/AboElezz-Car-Tuning/about.html"> <button class="btn btn-dark">ABOUT US</button></a>
             <a href="/AboElezz-Car-Tuning/contact.html"> <button class="btn btn-dark">CONTACT</button></a>
 
-            <br>
-
-            <div id="search-box" class="input-group search">
-                <div class="form-outline">
-                    <input id="myInputs" type="text" onkeyup="myFunctions()" class="form-control"
-                        placeholder="Type to Search" />
-                    <label class="form-label" for="myInput"></label>
-                </div>
-                <button id="search-button" onclick="myFunctions()" type="button" class="btn btn-primary">
-                    <i class="fas fa-search"></i>
-                </button>
-                </ul>
-                <br>
-
+            <br> <br> <br>
 
         </header>
+    </div> 
 
 
-
-        <div id="dropdown">
-            <li class="nav-item">
-                <a href="/AboElezz-Car-Tuning/interior.html"><button class="btn btn-secondary" type="button"
-                        id="dropdownMenu2">
-                        Interior
-                    </button></a>
-            </li>
-            <li class="nav-item">
-                <a href="/AboElezz-Car-Tuning/exterior.html"><button class="btn btn-secondary" type="button"
-                        id="dropdownMenu2">
-                        Exterior
-                    </button></a>
-            </li>
-            <li class="nav-item">
-                <a href="/AboElezz-Car-Tuning/accessories.html"><button class="btn btn-secondary" type="button"
-                        id="dropdownMenu2">
-                        Accessories
-                    </button></a>
-            </li>
-            <li class="nav-item">
-                <a href="/AboElezz-Car-Tuning/cleaning-products.html"><button class="btn btn-secondary" type="button"
-                        id="dropdownMenu2">
-                        Cleaning Products
-                    </button></a>
-            </li>
-        </div>
-    </div>
-    </div>
-
-    <h1 id="head-title">Select Your ŠKODA</h1>
-    <ul id="myUL">
+    <div class="main">
+        <ul id="myUL">
+                <div data-aos="fade-right" data-aos-duration="2000">
+                    <h3>
+                        <p style="width: 185px;" id="title"><img id="backArrow" onclick="history.back()" src="/AboElezz-Car-Tuning/back_arrow_left_icon.png" alt="">
+                         &nbsp; GOLF 5</p>
+                    </h3>
+                </div>
         <div id="cards" class="text-center paddasection">
-
-            <!-- <li><a href="#">
+        
+            <li>
                     <div class="card image mb-3" style="max-width: 18rem;">
                         <div class="card-header">
-                            <h2>SUPERB B5</h2>
+                            <h2>Golf 5 GTI Side Skirt</h2>
                         </div>
                         <div class="card-body">
                             <img class="cars"
-                                src="http://www.evo-blr.com/wp-content/uploads/2018/08/SKODA-Superb-5754_9.jpg"
+                                src="https://www.jom.de/media/images/org/image_20753_1.jpg"
                                 alt="">
                             <h4 class="card-title"></h4>
-                            <p class="card-text"></p>
+                            <p class="available">AVAILABLE</p>
                         </div>
                     </div>
-                </a> </li> -->
-            <li><a href="/AboElezz-Car-Tuning/cars/skoda/octavia a7/octavia a7.html">
+                </li>
+            <li>
                     <div class="card image mb-3" style="max-width: 18rem;">
                         <div class="card-header">
-                            <h2>OCTAVIA A7</h2>
+                            <h2>Golf 5 GTI Grill (with logo)</h2>
+                        </div>
+                        <div class="card-body">
+                            <img class="cars" style="height: 70%;"
+                                src="https://i.ebayimg.com/images/g/pNAAAOSwdvxdjKX3/s-l500.png"
+                                alt="">
+                            <h4 class="card-title"></h4>
+                            <p class="available">AVAILABLE</p>
+                        </div>
+                    </div>
+                </li>
+            <li>
+                    <div class="card image mb-3" style="max-width: 18rem;">
+                        <div class="card-header">
+                            <h2>Golf 5 GTI Spoiler (no print)</h2>
                         </div>
                         <div class="card-body">
                             <img class="cars"
-                                src="https://mediaaws.almasryalyoum.com/news/large/2016/10/26/539630_0.jpeg"
+                                src="https://m.media-amazon.com/images/I/61z+4iPRUxL._AC_SX466_.jpg"
                                 alt="">
                             <h4 class="card-title"></h4>
-                            <p class="card-text"></p>
+                            <p class="available">AVAILABLE</p>
                         </div>
                     </div>
-                </a></li>
-            <li><a href="/AboElezz-Car-Tuning/cars/skoda/octavia a5/octavia a5.html">
-                    <div class="card image mb-3" style="max-width: 18rem;">
-                        <div class="card-header">
-                            <h2>OCTAVIA A5</h2>
-                        </div>
-                        <div class="card-body">
-                            <img class="cars"
-                                src="https://besthqwallpapers.com/Uploads/20-4-2017/15294/thumb2-skoda-octavia-rs-245-2018-red-wagon-red-octavia-a5-new-cars.jpg"
-                                alt="">
-                            <h4 class="card-title"></h4>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </a></li>
-            <li><a href="/AboElezz-Car-Tuning/cars/skoda/octavia 2021/octavia 2021.html">
-                    <div class="card image mb-3" style="max-width: 18rem;">
-                        <div class="card-header">
-                            <h2>OCTAVIA 2021</h2>
-                        </div>
-                        <div class="card-body">
-                            <img class="cars"
-                                src="https://www.news000k.com/wp-content/uploads/2022/01/%D8%B3%D9%83%D9%88%D8%AF%D8%A7-%D8%A7%D9%88%D9%83%D8%AA%D8%A7%D9%81%D9%8A%D8%A7-2021.jpg"
-                                alt="">
-                            <h4 class="card-title"></h4>
-                            <p class="card-text"></p>
-                        </div>
-                    </div>
-                </a></li>
-
-    </ul>
+                </li>  
+        </ul>
     </div>
     </div>
+    </div>
+
 
 
     <!-- uppage -->
