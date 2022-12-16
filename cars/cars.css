@@ -736,7 +736,7 @@ footer p {
     font-family: sans-serif !important;
     color: rgba(0, 0, 0, 0.856);
     margin: 20px;
-    text-align: justify;
+    /* text-align: justify; */
 }
 
 #about .img {
@@ -1322,6 +1322,7 @@ footer p {
     margin-bottom: 30px;
     margin-top: -45px;
     text-align: center !important;
+    font-size: 18px !important;
 }
 
 .footer-icon {
