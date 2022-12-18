@@ -494,7 +494,7 @@ footer {
     display: none;
 }
 .text-center{
-    border-top: 2px solid rgb(255 140 196);
+    border-top: 2px solid rgb(225 160 154);
     width: 100%;
     height: auto;
     padding-top: 100px !important;
@@ -588,7 +588,7 @@ footer p {
 .btn-secondary::after {
     display: block;
     content: '';
-    border-bottom: 2px solid rgb(204, 56, 128);
+    border-bottom: 2px solid rgb(225 160 154);
     transition: transform 250ms ease-in-out;
     transform: scaleX(0);
 }
@@ -703,7 +703,7 @@ header ul {
 }
 
 #about {
-    border-top: 2px solid rgb(255 140 196);
+    border-top: 2px solid rgb(225 160 154);
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap;
@@ -759,7 +759,7 @@ header ul {
     height: 1128px;
     background-image: url(map.jpg);
     background-size: contain;
-    border-top: 2px solid rgba(212, 109, 109, 0.747);
+    border-top: 2px solid rgb(225 160 154);
 
 }
 
