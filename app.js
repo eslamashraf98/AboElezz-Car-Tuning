@@ -82,10 +82,7 @@ function myFunctionUp() {
 };
     
 
-var sold = document.querySelector(".sold");
+var sold = document.querySelector(".sold , .sold3");
 var card = document.querySelector(".card");
 sold.innerHTML = "OUT OF STOCK";
-
-
-
 
