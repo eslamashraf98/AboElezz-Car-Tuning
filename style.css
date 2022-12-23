@@ -395,6 +395,7 @@ li {
     padding-top: 0px !important;
     height: 180px;
     border: 2px solid rgba(255, 255, 255, 0.753);
+    border-bottom: 0px !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
 }
