@@ -399,12 +399,6 @@ li {
 }
 .card-img-top{
     padding-top: 0px !important;
-<<<<<<< HEAD
-    height: 235px;
-=======
-    height: 180px;
-    border: 2px solid rgba(255, 255, 255, 0.753);
->>>>>>> 1bf462aa525a49a42062604bebfb16fd155c7871
     border-bottom: 0px !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
@@ -656,16 +650,6 @@ p {
     font-size: 18px;
     color: black;
     display: block
-}
-#backArrow {
-    width: 25px;
-    float: left;
-    line-height: 50px !important;
-    margin-top: 15px;
-    margin-left: 15px;
-    background-color: #ffe600;
-    border-radius: 25px;
-    cursor: pointer;
 }
 #sorry{
     display: none;
