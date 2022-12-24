@@ -386,15 +386,21 @@ li {
     background-color: #ffffffee;
     border-radius: 0 0 20px 20px;
 }
+.box{
+    text-align: center !important;
+    justify-content: center !important;
+    margin: auto !important;
+}
 .card-body2 {
     background-color: #ffffffce;
     border-radius: 0 0 20px 20px;
     height: 100px;
+    width: 250px;
 }
 .card-img-top{
     padding-top: 0px !important;
-    height: 180px;
-    border: 2px solid rgba(255, 255, 255, 0.753);
+    height: 235px;
+    border-bottom: 0px !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
 }
@@ -515,11 +521,26 @@ section{
     font-family: sans-serif !important;
     color: #f0f0f0d5 !important;
     border-radius: 10px;
-    margin-bottom: -150px;
+    margin-bottom: -180px;
     margin-top: 10px;
     padding-top: 30px;
     text-shadow: 3px 3px 0px rgb(0, 0, 0);
     text-decoration: underline;
+}
+h4{
+    color: rgba(255, 255, 255, 0.849) !important;
+    margin-top: 200px !important;
+    margin-bottom: -120px !important;
+    background-color: rgba(0, 0, 0, 0.61);
+    border-radius: 5px;
+    width: 65%;
+    padding: 10px;
+    margin: auto;
+}
+@media  (max-width: 575px){
+    h4{
+        width: 95%;
+    }
 }
 .title-any2 {
     margin: auto;
@@ -540,6 +561,7 @@ section{
     justify-content: center;
 }
 .card-title{
+    margin-top: 15px !important;
     font-size: 18px;
     font-weight: 400;
 }
@@ -551,14 +573,16 @@ section{
     text-align: center;
 }
 .card-group .card{
-    min-width: 200px !important;
-    max-width: 300px !important;
+    min-width: 250px !important;
+    max-width: 252px !important;
     margin: 15px !important;
-    border: 0px solid !important;
+    border-radius: 25px !important;
+    text-align: center;
+    border: 2px solid rgba(255, 255, 255, 0.753) !important;
 }
 @media  (max-width: 575px){
 .card-group .card {
-    max-width: 200px !important;
+    max-width: 252px !important;
     justify-content: center;
     margin: 10px auto !important;
     }
@@ -628,7 +652,16 @@ p {
     color: black;
     display: block
 }
-
+#backArrow {
+    width: 25px;
+    float: left;
+    line-height: 50px !important;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: #ffe600;
+    border-radius: 25px;
+    cursor: pointer;
+}
 #sorry{
     display: none;
     margin: auto;
