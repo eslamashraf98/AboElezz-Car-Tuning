@@ -399,13 +399,10 @@ li {
 }
 .card-img-top{
     padding-top: 0px !important;
-<<<<<<< HEAD
     height: 235px;
     height: 235px;
     /* border: 2px solid rgba(255, 255, 255, 0.753); */
     background-color: whitesmoke;
-=======
->>>>>>> 50c2238d70d3027110639bbd2431fe48ca9e9fc0
     border-bottom: 0px !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
