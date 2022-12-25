@@ -399,12 +399,10 @@ li {
 }
 .card-img-top{
     padding-top: 0px !important;
-<<<<<<< HEAD
     height: 235px;
-=======
-    height: 180px;
-    border: 2px solid rgba(255, 255, 255, 0.753);
->>>>>>> 1bf462aa525a49a42062604bebfb16fd155c7871
+    height: 235px;
+    /* border: 2px solid rgba(255, 255, 255, 0.753); */
+    background-color: whitesmoke;
     border-bottom: 0px !important;
     border-top-left-radius: 25px !important;
     border-top-right-radius: 25px !important;
@@ -453,8 +451,8 @@ h2{
     margin: auto !important;
 }
 #honda{
-    width: 180px !important;
-    margin-bottom: 14px;
+    width: 200px !important;
+    margin-bottom: 0px;
 }
 #skoda{
     width: 154px !important;
@@ -481,8 +479,9 @@ h2{
     margin: -22.5px;
 }
 #mitsubishi{
-    width: 150px !important;
-    margin: 14px;
+    width: 120px !important;
+    margin: 35px;
+    margin-top: 15px;
 }
 #chevrolet {
     width: 250px !important;
