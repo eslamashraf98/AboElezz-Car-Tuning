@@ -451,8 +451,12 @@ h2{
     margin: auto !important;
 }
 #honda{
-    width: 200px !important;
-    margin-bottom: 0px;
+    width: 190px !important;
+    margin-bottom: 10px;
+}
+#mercedes{
+    width: 135px !important;
+    margin: 8px;
 }
 #skoda{
     width: 154px !important;
@@ -479,8 +483,8 @@ h2{
     margin: -22.5px;
 }
 #mitsubishi{
-    width: 120px !important;
-    margin: 35px;
+    width: 135px !important;
+    margin: 25px;
     margin-top: 15px;
 }
 #chevrolet {
@@ -489,7 +493,7 @@ h2{
 }
 #toyota {
     width: 200px !important;
-    margin: 10px;
+    margin: 11px;
 }
 #nissan {
     width: 260px !important;
@@ -549,7 +553,7 @@ h4{
 .title-any2 {
     margin: auto;
     text-align: center;
-    font-size: 40px !important;
+    font-size: 35px !important;
     font-weight: 600 !important;
     font-family: sans-serif !important;
     color: rgba(255, 217, 0, 0.774) !important;
