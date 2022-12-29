@@ -808,7 +808,13 @@ header ul {
     margin: auto !important;
     left: 50%;
 }
-
+.navbar-nav{
+    margin-top: -50px !important;
+    margin-bottom: 30px !important;
+}
+.navbar-collapse {
+    border: 0px !important;
+}
 .nav-item a {
     color: black !important;
     font-family: sans-serif;
@@ -1084,12 +1090,6 @@ header ul {
         top: -15px;
     }
 
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 25px !important;
-    transition: .2s;
-}
-
 .btn-dark{
     width: 75px !important;
     font-size: 10px !important;
@@ -1339,12 +1339,6 @@ footer p {
         top: -15px;
     }
 
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 25px !important;
-    transition: .2s;
-}
-
 .btn-dark {
     width: 80px !important;
     font-size: 10px !important;
@@ -1581,14 +1575,7 @@ footer p {
     #navMenu{
         right: 10px;
         top: -15px;
-    }
-
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 25px !important;
-    transition: .2s;
-}
-
+    } 
     .input-group .btn {
         display: none;
     }
@@ -1824,12 +1811,6 @@ footer p {
         top: -15px;
     }
 
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 25px !important;
-    transition: .2s;
-}
-
     .input-group .btn {
         display: none;
     }
@@ -2062,12 +2043,6 @@ footer p {
         right: 10px;
         top: -15px;
     }
-
-.navbar-collapse.in {
-    margin-top: -50px;
-    margin-bottom: 25px !important;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -2304,13 +2279,6 @@ footer p {
         top: -15px;
     }
 
-.navbar-collapse.in {
-    margin-top: -60px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    transition: .2s;
-}
-
     .input-group .btn {
         display: none;
     }
@@ -2544,13 +2512,6 @@ footer p {
         right: 30px;
         top: -15px;
     }
-
-.navbar-collapse.in {
-    margin-top: -60px;
-        margin-bottom: 25px;
-        margin-left: 25px;
-        transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -2789,13 +2750,6 @@ footer p {
         right: 30px;
         top: -15px;
     }
-
-.navbar-collapse.in {
-    margin-top: -60px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
@@ -3037,13 +2991,6 @@ footer p {
         right: 50px;
         top: -15px;
     }
-
-.navbar-collapse.in {
-    margin-top: -60px;
-    margin-bottom: 25px;
-    margin-left: 25px;
-    transition: .2s;
-}
 
     .input-group .btn {
         display: none;
