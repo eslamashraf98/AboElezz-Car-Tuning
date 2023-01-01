@@ -765,8 +765,8 @@ footer p {
     margin: auto !important;
 }
 .btn-secondary{
-    background-color: rgba(0, 0, 0, 0) !important;
-    border: 0px solid black !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0px solid rgb(0, 0, 0) !important;
     font-size: 25px !important;
 }
 
@@ -816,7 +816,7 @@ header ul {
     border: 0px !important;
 }
 .nav-item a {
-    color: black !important;
+    color: rgb(0, 0, 0) !important;
     font-family: sans-serif;
     text-align: center !important;
     margin: auto;
@@ -860,7 +860,10 @@ header ul {
         margin-top: 30px !important;
         margin: 5px;
         width: 120px !important;
+        background-color: rgba(27, 27, 27, 0.938) !important;
+        box-shadow: 2px 2px 0px black;
         font-weight: 500 !important;
+        border-radius: 5px !important;
         font-size: 18px !important;
         font-family: Arial, Helvetica, sans-serif !important;
     }

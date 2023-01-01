@@ -676,6 +676,7 @@ header ul {
     margin-top: 30px !important;
     margin: 5px;
     color: rgb(156, 32, 57) !important;
+    box-shadow: 2px 2px 0px rgb(156, 32, 57);
     width: 120px !important;
     margin-bottom: 20px !important;
     font-weight: 500 !important;
