@@ -397,10 +397,16 @@ li {
     height: 100px;
     width: 250px;
 }
+.carousel-inner{
+    scroll-snap-type: x mandatory !important;
+}
+.carousel-item{
+    scroll-snap-align: start !important;
+}
 .card-img-top{
     padding-top: 0px !important;
     height: 235px;
-    height: 235px;
+    min-width: 100%;
     /* border: 2px solid rgba(255, 255, 255, 0.753); */
     background-color: whitesmoke;
     border-bottom: 0px !important;
@@ -473,6 +479,10 @@ h2{
 #mazda{
     width: 170px !important;
     margin: 10px;
+}
+#chery {
+    width: 222px !important;
+    margin: 15px;
 }
 #seat{
     width: 200px !important;
