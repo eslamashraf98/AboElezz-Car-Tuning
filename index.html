@@ -92,7 +92,7 @@
         </div>
                 <div id="search-box" class="input-group search" onclick="vis()">
                     <div class="form-outline">
-                        <input id="myInput" type="text" onkeyup="myFunction()" class="form-control" placeholder="Type to Search" />
+                        <input id="myInput" type="text" onclick="submitResult(event)" onkeyup="myFunction()" class="form-control" placeholder="Type to Search" />
                         <label class="form-label" for="myInput"></label>
                     </div>
                     <button id="search-button" onclick="myFunction()" type="button" class="btn btn-primary">
@@ -119,7 +119,7 @@
 <br>
                 <div id="search-box" class="input-group search">
                     <div class="form-outline">
-                        <input id="myInputs" type="text" onkeyup="myFunctions()" class="form-control" placeholder="Type to Search"/>
+                        <input id="myInputs" type="text" onclick="submitResult(event)" onkeyup="myFunctions()" class="form-control" placeholder="Type to Search"/>
                         <label class="form-label" for="myInput"></label>
                     </div>
                     <button id="search-button" onclick="myFunctions()" type="button" class="btn btn-primary">
@@ -500,6 +500,7 @@ industry. We treat our clients as we would like to be treated.
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

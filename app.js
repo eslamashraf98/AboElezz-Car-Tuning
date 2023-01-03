@@ -86,3 +86,18 @@ var sold = document.querySelector(".sold , .sold3");
 var card = document.querySelector(".card");
 sold.innerHTML = "OUT OF STOCK";
 
+
+
+
+function submitResult(e) {
+    e.preventDefault();
+Swal.fire({
+  title: 'If You Dont See Your Car Model In This Section Go To NAV BAR And Take A look About Our Universal Tuning',
+  showClass: {
+    popup: 'animate__animated animate__fadeInDown'
+  },
+  hideClass: {
+    popup: 'animate__animated animate__fadeOutUp'
+  }
+})
+}
