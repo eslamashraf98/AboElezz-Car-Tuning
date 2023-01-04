@@ -331,7 +331,10 @@ header{
     background-color: rgba(0, 0, 0, 0.808);
     text-align: center;
 }
-
+#universal{
+    margin-top: 0px !important;
+    border-top: 2px solid #fff300;
+}
 li {
     list-style: none !important;
 }
@@ -345,7 +348,18 @@ li {
     margin-top: 30px !important;
     margin-bottom: 15px !important;
 }
-
+.swal2-styled.swal2-confirm{
+    background-color: #fff300 !important;
+    color: #000 !important;
+}
+.swal2-title {
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.swal2-container.swal2-center > .swal2-popup{
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px !important;
+}
 .search {
     margin-top: 15px;
     display: flex !important;

@@ -92,9 +92,9 @@ sold.innerHTML = "OUT OF STOCK";
 function submitResult(e) {
     e.preventDefault();
 Swal.fire({
-  title: 'If You Dont See Your Car Model In This Section Go To NAV BAR And Take A look About Our Universal Tuning',
+  title: 'If You Can Not Find Your Car Model In This Section Go To <b>NAV BAR</b> And Take A look About Our Universal Tuning Collection',
   showClass: {
-    popup: 'animate__animated animate__fadeInDown'
+    popup: 'animate__animated animate__fadeInDown !important'
   },
   hideClass: {
     popup: 'animate__animated animate__fadeOutUp'
