@@ -352,6 +352,19 @@ li {
     background-color: #fff300 !important;
     color: #000 !important;
 }
+.swal2-popup{
+    background-color: rgb(26, 26, 26) !important;
+    color: #000 !important;
+}
+.swal2-hide{
+    animation: swal2-hide 2s forwards !important;
+    position: center !important;
+    margin: auto !important;
+}
+.swal2-container.swal2-top-end > .swal2-popup,
+.swal2-container.swal2-top-right > .swal2-popup{
+    justify-self: center !important;
+}
 .swal2-title {
     background-color: rgba(0, 0, 0, 0) !important;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
@@ -1035,6 +1048,22 @@ header ul {
     border-left:3px solid #fff200;
     border-right: 3px solid #fff200;
 }
+/* ....Thankyou Message.... */
+.thankyou_message {
+    margin: auto;
+    margin-bottom: 10px;
+    display: none;
+        background: none;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 40px;
+        width: 70%;
+        padding-top: 15px;
+        padding-bottom: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
+        
+}
+
 
 #googlemap iframe{
     width: 100%;

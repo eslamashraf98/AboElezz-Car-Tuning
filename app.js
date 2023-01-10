@@ -103,39 +103,13 @@ Swal.fire({
 }
 
 
-//  $.get('https://www.html5rocks.com/en/tutorials/cors/', function(response) {                    
-//   var query=(response.search(/Using CORS - HTML5 Rocks/i));
-//   if(query>-1){
-//     console.log("https://www.html5rocks.com/en/tutorials/cors/")
-//   }
-//   else{
-//     console.log("not found")
-//   }
-// });
-
-//     var myPages = ["index.html", "interior.html", "accessories.html", "exterior.html", "cleaning-products.html"]; //your pages in here
-//     var searchResult = []; //here we have result
-//     var searchFor = "screen"; //what we search
-
-//     $.each(myPages, function (index, value) {
-
-//         $.ajax({
-//             async: false,
-//             type: 'GET',
-//             url: value,
-//             success: function (data) {
-
-//                 var body = $(data).text().replace(/\s+/gm, ' ');
-
-//                 if (body.indexOf(searchFor) >= 0) {
-//                     searchResult.push(value);
-//                 }
-
-//             }
-//         });
-
-//         if (index + 1 == myPages.length) {
-//                 alert(searchResult);
-//         }
-
-//     });
+function ThankyouResult(e) {
+    e.preventDefault();
+Swal.fire({
+  position: 'top-end',
+  icon: 'success',
+  title: 'Thank You For Contact Us .. We will get You In Touch as soon as possible',
+  showConfirmButton: false,
+  timer: 1500
+})
+}

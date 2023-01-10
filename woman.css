@@ -850,7 +850,16 @@ header ul {
     font-weight: lighter !important;
     font-size: 18px !important;
 }
-
+/* ....Thankyou Message.... */
+.thankyou_message {
+    display: block !important;
+    position: fixed !important;
+    background-color: #ffffffd2 !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: auto;
+    margin-bottom: 10px;
+}
 .row {
     display: none !important;
 }
