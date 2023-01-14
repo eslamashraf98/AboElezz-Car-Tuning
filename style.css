@@ -355,7 +355,7 @@ li {
 .swal2-popup{
     background-color: rgb(26, 26, 26) !important;
     color: #000 !important;
-    padding-bottom: 50px !important;
+    padding-bottom: 15px !important;
 }
 .swal2-hide{
     animation: swal2-hide 0.5s forwards !important;
