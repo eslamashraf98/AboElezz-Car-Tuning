@@ -100,16 +100,5 @@ Swal.fire({
     popup: 'animate__animated animate__fadeOutUp'
   }
 })
-}
+};
 
-
-function ThankyouResult(e) {
-    e.preventDefault();
-Swal.fire({
-  position: 'top-end',
-  icon: 'success',
-  title: 'Thank You For Contact Us .. We will get You In Touch as soon as possible',
-  showConfirmButton: false,
-  timer: 1500
-})
-}

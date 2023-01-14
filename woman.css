@@ -850,15 +850,19 @@ header ul {
     font-weight: lighter !important;
     font-size: 18px !important;
 }
-/* ....Thankyou Message.... */
-.thankyou_message {
-    display: block !important;
-    position: fixed !important;
-    background-color: #ffffffd2 !important;
-    width: 100% !important;
-    height: 100% !important;
-    margin: auto;
-    margin-bottom: 10px;
+.swal2-popup {
+    background-color: rgb(255, 207, 197) !important;
+    color: rgb(255, 255, 255) !important;
+    padding-bottom: 50px !important;
+}
+
+.swal2-hide {
+    animation: swal2-hide 0.5s forwards !important;
+    position: center !important;
+    margin: auto !important;
+}
+.swal2-container.swal2-center > .swal2-popup {
+    border-radius: 20px !important;
 }
 .row {
     display: none !important;

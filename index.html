@@ -180,7 +180,7 @@
     <div class="card-body">
         <img class="cars" id="bmw"
             src="BMW.webp"
-            alt=" bmw f30 bmw f35 bmw E90 bmw F10 bmw series1 bmw f20 bmw e46 bmw e92 bmw e93 bmw e60 bmw f80 bmw e36 بي ام دابل">
+            alt=" bmw f30 bmw f35 bmw E90 bmw F10 bmw 1series bmw series1 bmw 1 series bmw f20 bmw e46 bmw e92 bmw e93 bmw e60 bmw f80 bmw e36 بي ام دابل">
         <p class="card-text"></p>
     </div>
 </div>  </a></li>
@@ -415,10 +415,8 @@ industry. We treat our clients as we would like to be treated.
                     <label for="form-message">Email your Message</label>
                     <textarea class="form-control" name="message" required id="form-message" placeholder="Your Message"></textarea>
                 </div>
-
                 <div id="submit">
-                    <button class="btn btn-default" type="submit">Send Message</button>
-                    <!-- <a onclick="ThankyouResult(event)"></a> -->
+                    <button class="btn btn-default" value="submit" type="submit">Send Message</button>  
                 </div>
             </div>
             </form>
@@ -584,7 +582,18 @@ industry. We treat our clients as we would like to be treated.
                         }
                         var thankYouMessage = form.querySelector(".thankyou_message");
                         if (thankYouMessage) {
-                            thankYouMessage.style.display = "block";
+                             function ThankyouResult(e) {
+                                e.preventDefault();
+                                Swal.fire({
+                                    position: 'center',
+                                    icon: 'success',
+                                    title: 'Thank You For Contact Us .. We will get You In Touch as soon as possible',
+                                    showConfirmButton: false,
+                                    timer: 4000
+                                })
+                            };
+
+                            // thankYouMessage.style.display = "block";
                         }
                         return;
                     };
@@ -609,6 +618,13 @@ industry. We treat our clients as we would like to be treated.
                 for (var i = 0; i < buttons.length; i++) {
                     buttons[i].disabled = true;
                 }
+                Swal.fire({
+                    position: 'center',
+                    icon: 'success',
+                    title: 'Thank You For Contact Us .. We will get You In Touch as soon as possible',
+                    showConfirmButton: false,
+                    timer: 4000
+                })
             }
         })();
 </script>
