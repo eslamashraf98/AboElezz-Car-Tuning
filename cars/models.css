@@ -318,8 +318,10 @@
     body {
         width: 100vw !important;
         height: 100vh !important;
-        background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU);
-        background-size: 180px;
+    /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU); */
+        background-size: 220px !important;
+        background-color: rgba(0, 0, 0, 0.233) !important;
+        background-blend-mode: darken !important;
     }
 
     #contain {

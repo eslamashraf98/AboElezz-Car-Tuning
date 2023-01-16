@@ -334,7 +334,7 @@ li{
 
 header {
     width: 100%;
-    background-color: rgb(250 202 214);
+    background-color: rgba(250, 202, 214, 0.925);
     text-align: center;
 }
 
@@ -397,12 +397,17 @@ header {
     border-radius: 5px;
 }
 .card-body {
-    background-color: rgba(255, 255, 255, 0.295);
+    background-color: rgba(255, 255, 255, 0.884);
     border-radius: 10px !important;
+    height: 330px !important;
+}
+
+.card-body img {
+    height: 230px !important;
 }
 
 .card-header {
-    background-color: rgb(250 202 214) !important;
+    background-color: rgba(250, 202, 214, 0.925) !important;
     border-top-left-radius: 10px !important;
     border-top-right-radius: 10px !important;
 }
@@ -484,7 +489,7 @@ h2 {
 }
 
 footer {
-    background-color: rgba(223, 223, 223, 0.932);
+    background-color: rgb(223, 223, 223);
     height: auto !important;
 }
 .footer-icon2{
