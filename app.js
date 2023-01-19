@@ -88,8 +88,9 @@ sold.innerHTML = "OUT OF STOCK";
 
 
 
-
 function submitResult(e) {
+    var element = document.getElementById("navMenu");
+    element.classList.add("focus");
     e.preventDefault();
 Swal.fire({
   title: 'If You Can Not Find Your Car Model In This Section Go To <b>NAV BAR</b> And Take A look About Our Universal Tuning Collection',
@@ -102,3 +103,20 @@ Swal.fire({
 })
 };
 
+function remove() {
+    var element = document.getElementById("navMenu");
+    element.classList.remove("focus");
+};
+
+
+function orders() {
+    var shipping = document.querySelectorAll(".cars");
+    shipping.addEventListener('click', function () {
+        Swal.fire(
+            'Please Visit Us In Our Store',
+            "we don't have shipping right now",
+            'warning'
+        )
+    }
+    )
+};

@@ -320,7 +320,7 @@ body{
     width: 100vw !important;
     height: 100vh !important;
     /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU); */
-    background-size: 220px !important;
+    background-size: 180px !important;
     background-color: rgba(0, 0, 0, 0.233) !important;
     background-blend-mode: darken !important;
 }
@@ -349,6 +349,12 @@ li {
     border-radius: 15px !important;
     margin-top: 30px !important;
     margin-bottom: 15px !important;
+}
+.focus{
+    border: 3px double #fff300 !important;
+    background-color: #ffffff46 !important;
+    background-size: 100% !important;
+    border-radius: 10px !important;
 }
 .swal2-styled.swal2-confirm{
     background-color: #fff300 !important;
