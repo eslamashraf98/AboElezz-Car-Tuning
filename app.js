@@ -82,6 +82,7 @@ function myFunctionUp() {
 };
     
 
+
 var sold = document.querySelector(".sold , .sold3");
 var card = document.querySelector(".card");
 sold.innerHTML = "OUT OF STOCK";
@@ -109,14 +110,19 @@ function remove() {
 };
 
 
-function orders() {
-    var shipping = document.querySelectorAll(".cars");
-    shipping.addEventListener('click', function () {
-        Swal.fire(
-            'Please Visit Us In Our Store',
-            "we don't have shipping right now",
-            'warning'
-        )
-    }
-    )
+
+function order() {
+Swal.fire({
+  title: 'Oops..',
+  icon: 'error',
+  text: 'sorry shipping is not available right now',
+  html:
+    'sorry shipping is not available right now <br>' +
+    'you can ' +
+    '<a href="/AboElezz-Car-Tuning/contact.html">visit or contact us</a>',
+  showCloseButton: true,
+  showConfirmButton: false,
+})
 };
+
+

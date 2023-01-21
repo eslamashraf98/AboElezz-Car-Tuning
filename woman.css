@@ -869,6 +869,34 @@ header ul {
 .swal2-container.swal2-center > .swal2-popup {
     border-radius: 20px !important;
 }
+
+.swal2-container.swal2-top-end > .swal2-popup,
+.swal2-container.swal2-top-right > .swal2-popup {
+    justify-self: center !important;
+    padding-bottom: 40px !important;
+    color: rgb(224, 224, 224) !important;
+}
+
+.swal2-title {
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+
+.swal2-html-container {
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.swal2-container.swal2-center > .swal2-popup {
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px !important;
+}
+
+.swal2-close{
+    color: white;
+}
 .row {
     display: none !important;
 }

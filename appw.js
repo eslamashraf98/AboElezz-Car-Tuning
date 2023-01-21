@@ -81,3 +81,18 @@ sold.innerHTML = "OUT OF STOCK";
 sold.style.background = "#f44";
 
 
+
+
+function order() {
+Swal.fire({
+  title: 'Oops..',
+  icon: 'error',
+  text: 'sorry shipping is not available right now',
+  html:
+    'sorry shipping is not available right now <br>' +
+    'you can ' +
+    '<a href="#contact">visit or contact us</a>',
+  showCloseButton: true,
+  showConfirmButton: false,
+})
+};

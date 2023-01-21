@@ -499,7 +499,48 @@
         padding: 5px;
         font-weight: 600;
     }
+.swal2-styled.swal2-confirm {
+    background-color: #fff300 !important;
+    color: #000 !important;
+}
 
+.swal2-popup {
+    background-color: rgb(26, 26, 26) !important;
+    color: #000 !important;
+    padding-bottom: 15px !important;
+}
+
+.swal2-hide {
+    animation: swal2-hide 0.5s forwards !important;
+    position: center !important;
+    margin: auto !important;
+}
+
+.swal2-container.swal2-top-end > .swal2-popup,
+.swal2-container.swal2-top-right > .swal2-popup {
+    justify-self: center !important;
+    padding-bottom: 40px !important;
+    color: rgb(224, 224, 224) !important;
+}
+
+.swal2-title {
+    background-color: rgba(0, 0, 0, 0) !important;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif !important;
+}
+.swal2-html-container{
+    color: rgb(224, 224, 224) !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    padding-bottom: 20px !important;
+}
+.swal2-container.swal2-center > .swal2-popup {
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px !important;
+}
+.swal2-close{
+    outline-width: 0px !important;
+    outline: none !important;
+}
     .card h2{
         font-size: 18px !important;
         color: rgb(0, 0, 0);
