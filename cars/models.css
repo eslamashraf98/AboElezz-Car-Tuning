@@ -486,6 +486,7 @@
 
     .sold2{
         background-color: #ff3d3d !important;
+        cursor: pointer;
         }
 
     .available{
@@ -498,6 +499,7 @@
         border-radius: 5px;
         padding: 5px;
         font-weight: 600;
+        cursor: pointer;
     }
 .swal2-styled.swal2-confirm {
     background-color: #fff300 !important;
