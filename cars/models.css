@@ -388,6 +388,7 @@
     font-weight: 600;
     border-radius: 0 0 20px 20px;
 }
+
 #backArrow{
     width: 25px;
     float: left;
@@ -409,6 +410,7 @@
 #title h3{
     line-height: 50px;
     float: right;
+    margin-bottom: 50px;
 }
 
     h2 {
