@@ -888,7 +888,6 @@ header ul {
     color: rgb(255, 255, 255) !important;
     font-size: 15px !important;
     line-height: 20px !important;
-    padding-bottom: 20px !important;
 }
 
 .swal2-container.swal2-center > .swal2-popup {
@@ -898,6 +897,27 @@ header ul {
 
 .swal2-close{
     color: white;
+}
+.swal2-icon.swal2-error {
+    margin-top: 30px !important;
+}
+
+.swal2-container.swal2-center > .swal2-popup {
+    background-color: rgb(26, 26, 26);
+    border-radius: 20px !important;
+}
+
+.swal2-close {
+    margin-right: 10px !important;
+    margin-top: 5px;
+    overflow: hidden !important;
+}
+
+.swal2-close:focus {
+    outline: none !important;
+    overflow: visible !important;
+    color: white;
+    border: 15px solid rgba(255, 0, 0, 0) !important;
 }
 .row {
     display: none !important;

@@ -391,15 +391,22 @@ li {
     line-height: 20px !important;
     padding-bottom: 20px !important;
 }
-
+.swal2-icon.swal2-error{
+    margin-top: 30px !important;
+}
 .swal2-container.swal2-center > .swal2-popup {
     background-color: rgb(26, 26, 26);
     border-radius: 20px !important;
 }
-
-.swal2-close {
-    outline-width: 0px !important;
+.swal2-close{
+    margin-right: 10px !important;
+    margin-top: 5px;
+    overflow: hidden !important;
+}
+.swal2-close:focus{
     outline: none !important;
+    overflow:visible !important;
+    border: 15px solid rgba(255, 0, 0, 0) !important;
 }
 .search {
     margin-top: 15px;
@@ -693,6 +700,7 @@ h4{
         border-radius: 5px;
         padding: 5px;
         font-weight: 600;
+        cursor: pointer !important;
     }
         .available2 {
             width: 80%;
@@ -704,6 +712,7 @@ h4{
             border-radius: 15px;
             padding: 5px;
             font-weight: 600;
+            cursor: pointer !important;
         }
 h5 {
     margin: 0px;
