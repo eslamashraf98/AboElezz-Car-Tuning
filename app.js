@@ -13,25 +13,36 @@ document.onreadystatechange = function () {
         document.querySelector(
             "body").style.visibility = "visible";
         document.querySelector(
-            "body").style.background = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU)";
+            // "body").style.background = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU)";
+            "body").style.background = "url(https://t3.ftcdn.net/jpg/04/55/51/50/360_F_455515083_HRCbCZ5E8Fzbg1MpaRwjTFwR8HSxxrW3.jpg)";
     }
 };
 
 
+noResult = document.getElementById('noresult');
+
 // searchbar for #first mobile
 function myFunction() {
-    var input, filter, ul, li, a, i;
+    var input, filter, ul, li, a, i, noResult;
     input = document.getElementById("myInput");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
+
+// no result found     
+noResult = document.getElementById('noresult');
+
+    let found = false;
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
+            found = true;
+            noResult.style.display = "none";
             // sorry.style.display = "none";
         } else {
             li[i].style.display = "none";
+            noResult.style.display = "";
             // sorry.style.display = "block";
         }
     };
@@ -40,17 +51,26 @@ function myFunction() {
 
 // searchbar for #second laptop
 function myFunctions() {
-    var input, filter, ul, li, a, i;
+    var input, filter, ul, li, a, i, noResult;
     input = document.getElementById("myInputs");
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
     li = ul.getElementsByTagName("li");
+
+// no result found     
+noResult = document.getElementById('noresult');
+
+    let found = false;
     for (i = 0; i < li.length; i++) {
         a = li[i].getElementsByTagName("a")[0];
         if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
+            found = true;
+            noResult.style.display = "none";
         } else {
             li[i].style.display = "none";
+            noResult.style.display = "";
+
         }
     };
     console.log(ul);
