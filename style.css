@@ -727,6 +727,26 @@ h5 {
     text-align: center;
     margin: auto !important;
 }
+#etc{
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    font-weight: 800;
+    text-align: center;
+    margin: auto !important;
+    backdrop-filter: brightness(0.5);
+    margin-top: 15px !important;
+}
+#etc q{
+    font-size: 15px;
+    font-weight: 800;
+    color: #ffffff;
+}
+#etc a{
+    color: #ffe600;
+    font-size: 10px;
+    font-weight: 800;
+}
+
 p {
     font-size: 12px;
 }

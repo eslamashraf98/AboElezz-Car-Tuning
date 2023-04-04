@@ -13,13 +13,15 @@ document.onreadystatechange = function () {
         document.querySelector(
             "body").style.visibility = "visible";
         document.querySelector(
+             "body").style.background = "url(https://t4.ftcdn.net/jpg/02/42/06/91/360_F_242069107_TJ9M0xOu2VDhJwXcXdGhxglfmGdMEhdX.jpg)";
+            //  "body").style.background = "url(https://media.istockphoto.com/id/503808984/vector/auto-spare-parts-seamless-pattern.jpg?s=170x170&k=20&c=fjP0LEHdDjGVZ9T-Y-kU-trrLpgDN1qjKu2Ow1vsxtY=)";
             // "body").style.background = "url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrij-VVzH0x3A12wU-oc_43Xgnzxi40bWTsw&usqp=CAU)";
-            "body").style.background = "url(https://t3.ftcdn.net/jpg/04/55/51/50/360_F_455515083_HRCbCZ5E8Fzbg1MpaRwjTFwR8HSxxrW3.jpg)";
+            // "body").style.background = "url(https://t3.ftcdn.net/jpg/04/55/51/50/360_F_455515083_HRCbCZ5E8Fzbg1MpaRwjTFwR8HSxxrW3.jpg)";
     }
 };
 
 
-noResult = document.getElementById('noresult');
+
 
 // searchbar for #first mobile
 function myFunction() {
@@ -30,7 +32,8 @@ function myFunction() {
     li = ul.getElementsByTagName("li");
 
 // no result found     
-noResult = document.getElementById('noresult');
+    noResult = document.getElementById('noresult');
+    etc = document.getElementById('etc');
 
     let found = false;
     for (i = 0; i < li.length; i++) {
@@ -39,11 +42,9 @@ noResult = document.getElementById('noresult');
             li[i].style.display = "";
             found = true;
             noResult.style.display = "none";
-            // sorry.style.display = "none";
         } else {
             li[i].style.display = "none";
             noResult.style.display = "";
-            // sorry.style.display = "block";
         }
     };
 };
@@ -58,7 +59,8 @@ function myFunctions() {
     li = ul.getElementsByTagName("li");
 
 // no result found     
-noResult = document.getElementById('noresult');
+    noResult = document.getElementById('noresult');
+    etc = document.getElementById('etc');
 
     let found = false;
     for (i = 0; i < li.length; i++) {
@@ -67,6 +69,7 @@ noResult = document.getElementById('noresult');
             li[i].style.display = "";
             found = true;
             noResult.style.display = "none";
+
         } else {
             li[i].style.display = "none";
             noResult.style.display = "";
