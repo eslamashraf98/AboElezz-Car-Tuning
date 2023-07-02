@@ -573,8 +573,8 @@ h2{
     margin: 5px;
 }
 #fiat {
-    width: 260px !important;
-    margin: 5px;
+    width: 130px !important;
+    margin: 13px;
 }
 
 section{
@@ -1453,6 +1453,7 @@ footer p {
         bottom: 38px;
         left: 30px;
     }
+
     #navMenu{
         top: -15px;
     }
